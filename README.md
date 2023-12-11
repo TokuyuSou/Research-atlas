@@ -38,6 +38,11 @@ and correlate these with academic outputs such as published papers and citation 
 The project was collaboratively developed by Team AtlasIntellect, comprising members with roles in data collection, 
 UI/UX design, and system implementation. For detailed contributions, please refer to the project document.
 
+## Development Team Members
+- Seio Inoue @sei0o
+- Tokuyu Sou(Deyu Cao) @TokuyuSou
+- Soshi Takeuchi @soshi-takeuchi
+
 ## Known Issues & Support
 
 - The system is deployed experimentally at https://tokuyusou.github.io/Research-atlas, but may contain bugs.
