@@ -61,7 +61,7 @@ const getData = async (researchSubject, startYear, endYear, tertiarySectionName)
 const setupSankeyData = (data, mode, itemCount, selectMode, showOthers) => {
   let leftElements = [];
   let links = [];
-  
+
   let firstFoundJournalName = {}; // e.g. { "plos one": "PLoS ONE", ... }
   let rightElements = [];
 
@@ -274,23 +274,23 @@ const createGraphs = (data, mode, sortMode, itemCount, selectMode) => {
 
   const sankeyData = setupSankeyData(data, mode, itemCount, selectMode, false);
   const { nodes, links } = sankey(sankeyData);
-  
+
   const color = d3.scaleOrdinal().range(d3.schemeCategory10);
 
   let activeNode = null;
 
   const selectNode = (d) => {
-      svg.selectAll("rect").join()
-        .style("opacity", (other) => {
-          if (d.name === other.name 
-            || d.sourceLinks.map(x => x.target.name).includes(other.name) 
-            || d.targetLinks.map(x => x.source.name).includes(other.name))
-            return 1.0;
-          else return 0.3;
-        })
+    svg.selectAll("rect").join()
+      .style("opacity", (other) => {
+        if (d.name === other.name
+          || d.sourceLinks.map(x => x.target.name).includes(other.name)
+          || d.targetLinks.map(x => x.source.name).includes(other.name))
+          return 1.0;
+        else return 0.3;
+      })
 
-      svg.selectAll("g.link").join()
-        .style("opacity", (other) => (d.name === other.source.name || d.name === other.target.name) ? 1.0 : 0.3)
+    svg.selectAll("g.link").join()
+      .style("opacity", (other) => (d.name === other.source.name || d.name === other.target.name) ? 1.0 : 0.3)
   }
 
   const deselectNode = () => {
@@ -341,7 +341,7 @@ const createGraphs = (data, mode, sortMode, itemCount, selectMode) => {
       if (d.type === "conference") {
         tooltip.html(`${d.name}<br>h5-index: ${d.impact}`);
       }
-      
+
       if (!activeNode) selectNode(d);
     })
     .on("mousemove", (event) => {
@@ -469,6 +469,7 @@ const createGraphs = (data, mode, sortMode, itemCount, selectMode) => {
 };
 
 const getQueryParams = (params) => {
+  console.log(window.location.search);
   const urlParams = new URLSearchParams(window.location.search);
   const queryParams = {};
   params.forEach(param => {
@@ -498,14 +499,34 @@ const listGrants = (grants) => {
   document.getElementById("grants").innerHTML = `${header}${tbody}`;
 }
 
-function openIndexedDB() {
+async function getLatestVersion(dbName) {
   return new Promise((resolve, reject) => {
-    const request = indexedDB.open("MyDatabase", 1);
+    const request = indexedDB.open(dbName);
+    request.onsuccess = (event) => {
+      const db = event.target.result;
+      const version = db.version;
+      db.close();
+      resolve(version);
+    };
+    request.onerror = (event) => {
+      reject('Failed to open IndexedDB for version check.');
+    };
+  });
+}
 
+async function openIndexedDB() {
+  const latestVersion = await getLatestVersion("MyDatabase");
+  console.log(latestVersion);
+  return new Promise((resolve, reject) => {
+    const request = indexedDB.open("MyDatabase", latestVersion);
+
+    /*
     request.onupgradeneeded = (event) => {
       const db = event.target.result;
       db.createObjectStore("groupData", { keyPath: "id" });
+      db.createObjectStore("originalData", { keyPath: "id" });
     };
+    */
 
     request.onsuccess = (event) => {
       resolve(event.target.result);
@@ -522,15 +543,18 @@ async function loadFromIndexedDB() {
   const db = await openIndexedDB();
   const transaction = db.transaction(["groupData"], "readonly");
   const store = transaction.objectStore("groupData");
- 
+
   return new Promise((resolve, reject) => {
-    const request = store.get("selectedGroupData");
+    const request = store.getAll();
 
     request.onsuccess = (event) => {
       if (event.target.result) {
-        resolve(event.target.result.data);
+        resolve(event.target.result);
+        console.log("loaded from indexedDB");
+
       } else {
         resolve(null);
+        console.log("no data in indexedDB");
       }
     };
 
@@ -572,8 +596,8 @@ const main = async () => {
 
   if (storedData) {
     // セッションストレージにデータがある場合は、そちらを優先して表示
-    GroupData = storedData;
-    console.log(GroupData);
+    GroupData = storedData[0];
+    console.log(storedData);
   } else {
     // セッションストレージにデータがない場合は、一からデータを読み込み
     GroupData = await getData(researchSubject, startYear, endYear, tertiarySectionName);

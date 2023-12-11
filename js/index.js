@@ -280,15 +280,108 @@ function filterRankingDataByBudgetRange(nestedData, range) {
   return filteredData;
 }
 
-function openIndexedDB() {
+async function getLatestVersion(dbName) {
   return new Promise((resolve, reject) => {
-    const request = indexedDB.open("MyDatabase", 1);
+    const request = indexedDB.open(dbName);
+    request.onsuccess = (event) => {
+      const db = event.target.result;
+      const version = db.version;
+      db.close();
+      resolve(version);
+    };
+    request.onerror = (event) => {
+      reject('Failed to open IndexedDB for version check.');
+    };
+  });
+}
+
+async function setupIndexedDB() {
+  try {
+    const latestVersion = await getLatestVersion('MyDatabase');
+    console.log("latestVersion when setting up: " + latestVersion);
+    return new Promise((resolve, reject) => {
+      // データベースを最新バージョンで開く
+      const request = indexedDB.open('MyDatabase', 2);
+
+      request.onerror = (event) => {
+        console.error('IndexedDB error:', event.target.error);
+        reject('Failed to open IndexedDB.');
+      };
+
+      request.onsuccess = (event) => {
+        console.log('IndexedDB initialized successfully.');
+        resolve(event.target.result);
+      };
+
+      request.onupgradeneeded = (event) => {
+        const db = event.target.result;
+
+        // 'researchData'オブジェクトストアの初期化（存在しない場合のみ作成）
+        if (!db.objectStoreNames.contains('researchData')) {
+          db.createObjectStore('researchData', { autoIncrement: true });
+        }
+
+        // 'groupData'オブジェクトストアの初期化（常に再作成）
+        if (db.objectStoreNames.contains('groupData')) {
+          db.deleteObjectStore('groupData');
+        }
+        db.createObjectStore('groupData', { autoIncrement: true });
+
+        console.log('IndexedDB stores created/updated.');
+      };
+    });
+  } catch (error) {
+    console.error('Error setting up IndexedDB:', error);
+  }
+}
+
+
+
+
+
+async function retrieveFromIndexedDB(storeName) {
+  const db = await openIndexedDB();
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction(storeName, 'readonly');
+    const store = transaction.objectStore(storeName);
+    const getAllRequest = store.getAll();
+
+    getAllRequest.onerror = (event) => {
+      console.error('Error reading data from IndexedDB:', event.target.error);
+      reject('Failed to retrieve data from IndexedDB.');
+    };
+
+    getAllRequest.onsuccess = (event) => {
+      resolve(event.target.result);
+    };
+  });
+}
+
+
+async function openIndexedDB() {
+  const latestVersion = await getLatestVersion("MyDatabase");
+  console.log("latestVersion: " + latestVersion);
+  return new Promise((resolve, reject) => {
+    const request = indexedDB.open("MyDatabase", latestVersion);
 
     request.onupgradeneeded = (event) => {
       const db = event.target.result;
-      db.createObjectStore("groupData", { keyPath: "id" });
-      db.createObjectStore("originalData", { keyPath: "id" });
+
+      // 'researchData'オブジェクトストアの初期化（存在しない場合のみ作成）
+      if (!db.objectStoreNames.contains('researchData')) {
+        db.createObjectStore('researchData', { autoIncrement: true });
+      }
+
+      // 'groupData'オブジェクトストアの初期化（常に再作成）
+      if (db.objectStoreNames.contains('groupData')) {
+        db.deleteObjectStore('groupData');
+      }
+      db.createObjectStore('groupData', { autoIncrement: true });
+
+      console.log('IndexedDB stores created/updated.');
     };
+
+
 
     request.onsuccess = (event) => {
       resolve(event.target.result);
@@ -300,16 +393,44 @@ function openIndexedDB() {
   });
 }
 
-
-async function saveToIndexedDB(groupData) {
+async function debugOutput(storeName) {
   const db = await openIndexedDB();
-  const transaction = db.transaction(["groupData"], "readwrite");
-  const store = transaction.objectStore("groupData");
+  const transaction = db.transaction([storeName], "readonly");
+  const store = transaction.objectStore(storeName);
+  const request = store.getAll();
+
+  request.onsuccess = () => {
+    console.log("デバッグ出力:", request.result);
+  };
+
+  request.onerror = (event) => {
+    console.error("デバッグ出力エラー:", event.target.error);
+  };
+}
+
+async function saveToIndexedDB(storeName, data) {
+  const db = await openIndexedDB();
+  const transaction = db.transaction([storeName], "readwrite");
+  const store = transaction.objectStore(storeName);
 
   return new Promise((resolve, reject) => {
-    const request = store.put({ id: "selectedGroupData", data: groupData });
+    let request;
+    if (storeName === "groupData") {
+      // groupDataストアの場合、固定IDを使用
+      console.log(data);
+      request = store.put(data);
 
-    request.onsuccess = () => {
+      console.log("groupDataストアに保存しました");
+    } else {
+      // 他のストアの場合は、データそのものを保存
+      request = store.put(data);
+    }
+
+    request.onsuccess = async () => {
+      // トランザクションが完了するのを待つ
+      await transaction.complete;
+      // データを読み出してデバッグ出力する
+      debugOutput(storeName);
       resolve();
     };
 
@@ -320,23 +441,6 @@ async function saveToIndexedDB(groupData) {
 }
 
 
-async function saveToIndexedDB_original_data(originalData) {
-  const db = await openIndexedDB();
-  const transaction = db.transaction(["originalData"], "readwrite");
-  const store = transaction.objectStore("originalData");
-
-  return new Promise((resolve, reject) => {
-    const request = store.put({ id: "originalData", data: originalData });
-
-    request.onsuccess = () => {
-      resolve();
-    };
-
-    request.onerror = (event) => {
-      reject(event.target.error);
-    };
-  });
-}
 
 const breadcrumb = (inInstitutionView = false) => {
   let ret = "";
@@ -609,21 +713,6 @@ const createGraphs = (data, year_start, year_end, key = 'Primary_Review_Section'
       if (key === 'Tertiary_Review_Section') {
         // 指定した小区分のデータを取得
         const selectedSection = encodeURIComponent(d.key);
-        const response = await fetch(`https://excellent-grin-407604.an.r.appspot.com/research/individual?tertiaryReviewSection=${selectedSection}`);
-        if (response.ok) {
-          const groupData = await response.json();
-          console.log(groupData);
-          await saveToIndexedDB(groupData);
-          const url = `/sankey?section=${selectedSection}&startYear=${year_start}&endYear=${year_end}`;
-          window.location.href = url;
-          // ここで取得したgroupDataを使用して、次の処理を行う
-          // 例: 新しいページにデータを表示する、など
-        } else {
-          console.error('Failed to fetch data for', selectedSection);
-        }
-
-
-        /*
         // 現在のページの状態をsessionStorageに保存
         const currentState = {
           section: selectedSection,
@@ -635,10 +724,34 @@ const createGraphs = (data, year_start, year_end, key = 'Primary_Review_Section'
         };
 
         sessionStorage.setItem('mainPageState', JSON.stringify(currentState));
-        console.log("IndexedDBに保存しました");
+        console.log("session_stateを保存しました");
+        try {
+          document.getElementById('loadingIndicator').style.display = 'block';
+          const response = await fetch(`https://excellent-grin-407604.an.r.appspot.com/research/individual?tertiaryReviewSection=${selectedSection}`);
+          if (response.ok) {
+            const groupData = await response.json();
+            console.log(groupData);
+            await saveToIndexedDB('groupData', groupData);
+
+            const url = `/sankey?section=${selectedSection}&startYear=${year_start}&endYear=${year_end}`;
+            window.location.href = url;
+            // ここで取得したgroupDataを使用して、次の処理を行う
+            // 例: 新しいページにデータを表示する、など
+          } else {
+            console.error('Failed to fetch data for', selectedSection);
+          }
+        } catch (error) {
+          console.error('Error fetching data for', selectedSection, error);
+        } finally {
+          document.getElementById('loadingIndicator').style.display = 'none';
+        }
+
+
+
+
+
 
         /*
-
         sessionStorage.setItem('section', selectedSection);
         sessionStorage.setItem('startYear', year_start);
         sessionStorage.setItem('endYear', year_end);
@@ -708,7 +821,6 @@ const createGraphs = (data, year_start, year_end, key = 'Primary_Review_Section'
     for (let word in wordCounts) {
       if (wordCounts[word] >= minCount) {
         filteredWords.push(word);
-        console.log(word, wordCounts[word]);
       }
     }
 
@@ -843,10 +955,46 @@ const main = async () => {
     return pagesData.flat(); // 全てのデータを結合
   };
 
+  // IndexedDBのセットアップ
+  try {
+    await setupIndexedDB();
+    console.log('IndexedDB is ready to use.');
+  } catch (error) {
+    console.error('Error setting up IndexedDB:', error);
+    // IndexedDBのセットアップに失敗した場合のエラーハンドリング
+    // 必要に応じてユーザーに通知するか、代替のデータストレージ戦略を使用する
+  }
 
-  // データを取得
-  const allData = await fetchAllResearchData(50);
-  console.log('All fetched data:', allData);
+
+
+  // ページがロードされたときにIndexedDBからデータを取得
+
+  let allData = await retrieveFromIndexedDB('researchData');
+  // データが配列内の配列である場合、最初の要素を取り出す
+  if (Array.isArray(allData)) {
+    allData = allData[0];
+  }
+  console.log('Retrieved data:', allData);
+
+
+  if (!allData || allData.length === 0) {
+    // IndexedDBにデータがない場合、データベースからデータを取得
+    try {
+      document.getElementById('loadingIndicator').style.display = 'block';
+      allData = await fetchAllResearchData(50);
+      console.log('Fetched data:', allData);
+      // 取得したデータをIndexedDBに保存
+      await saveToIndexedDB('researchData', allData);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    } finally {
+      document.getElementById('loadingIndicator').style.display = 'none';
+    }
+    allData = await fetchAllResearchData(50);
+    console.log('Fetched data:', allData);
+    // 取得したデータをIndexedDBに保存
+    await saveToIndexedDB('researchData', allData);
+  }
 
 
 
@@ -868,6 +1016,7 @@ const main = async () => {
   const state = sessionStorage.getItem('mainPageState');
   if (state) {
     const s = JSON.parse(state);
+    console.log("return from sankey");
     // currentPrimarySection = sessionStorage.getItem('primarySection');
     // currentSecondarySection = sessionStorage.getItem('secondarySection');
     // sessionStorage.removeItem('primarySection');
@@ -889,6 +1038,7 @@ const main = async () => {
     // previousData.push({ data: secondaryFiltered, key: currentKey, primarySection: currentPrimarySection, secondarySection: currentSecondarySection, currentLevel: '' })
 
     sessionStorage.removeItem('mainPageState');
+    console.log("redirected from sankey");
 
   }
 

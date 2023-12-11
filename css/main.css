@@ -260,3 +260,50 @@ button:hover {
     margin-top: 10px;
     display: block;
 }
+
+#loadingIndicator {
+    display: none;
+    /* 初期状態では非表示 */
+    position: fixed;
+    /* ページ上の固定位置に表示 */
+    top: 50%;
+    /* 垂直方向の中央に配置 */
+    left: 50%;
+    /* 水平方向の中央に配置 */
+    transform: translate(-50%, -50%);
+    /* 正確な中央に配置するための調整 */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* 背景色（半透明の白） */
+    border-radius: 10px;
+    /* 角を丸く */
+    text-align: center;
+    /* テキストを中央揃え */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* 影を追加 */
+    z-index: 1000;
+    /* 他の要素より上に表示 */
+}
+
+#loadingIndicator::before {
+    content: '';
+    /* ビフォア擬似要素でローディングアイコンを追加（オプション） */
+    display: block;
+    margin: 0 auto 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+    border-top: 5px solid #f3f3f3;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
