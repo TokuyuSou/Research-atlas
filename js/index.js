@@ -733,7 +733,7 @@ const createGraphs = (data, year_start, year_end, key = 'Primary_Review_Section'
             console.log(groupData);
             await saveToIndexedDB('groupData', groupData);
 
-            const url = `/sankey?section=${selectedSection}&startYear=${year_start}&endYear=${year_end}`;
+            const url = `/Research-atlas/sankey?section=${selectedSection}&startYear=${year_start}&endYear=${year_end}`;
             window.location.href = url;
             // ここで取得したgroupDataを使用して、次の処理を行う
             // 例: 新しいページにデータを表示する、など
