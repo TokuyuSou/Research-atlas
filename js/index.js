@@ -507,22 +507,6 @@ const createGraphs = (data, year_start, year_end, key = 'Primary_Review_Section'
 
   // 各大学のロゴに対応するパターンを定義
   const universities = [
-    { name: "東京大学", logo: "/photos/東京大学.png" },
-    { name: "京都大学", logo: "/photos/京都大学.png" },
-    { name: "大阪大学", logo: "/photos/大阪大学.png" },
-    { name: "東京工業大学", logo: "/photos/東京工業大学.png" },
-    { name: "名古屋大学", logo: "/photos/名古屋大学.png" },
-    { name: "東北大学", logo: "/photos/東北大学.png" },
-    { name: "北海道大学", logo: "/photos/北海道大学.png" },
-    { name: "九州大学", logo: "/photos/九州大学.png" },
-    { name: "神戸大学", logo: "/photos/神戸大学.png" },
-    { name: "東京医科歯科大学", logo: "/photos/東京医科歯科大学.png" },
-    { name: "早稲田大学", logo: "/photos/早稲田大学.png" },
-    { name: "慶應義塾大学", logo: "/photos/慶應義塾大学.png" },
-    { name: "筑波大学", logo: "/photos/筑波大学.png" },
-    { name: "順天堂大学", logo: "/photos/順天堂大学.png" },
-    { name: "千葉大学", logo: "/photos/千葉大学.png" },
-    { name: "一橋大学", logo: "/photos/一橋大学.png" },
     // ... その他の大学
   ];
 
