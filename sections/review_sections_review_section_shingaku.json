@@ -1,0 +1,30 @@
+[
+  {
+    "code_nii": "477",
+    "code_mext": "01",
+    "name_ja": "人文・社会系",
+    "name_en": "Humanities and Social Sciences",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "478",
+    "code_mext": "02",
+    "name_ja": "理工系",
+    "name_en": "Science and Engineering",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "479",
+    "code_mext": "03",
+    "name_ja": "生物系",
+    "name_en": "Biological Sciences",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "480",
+    "code_mext": "04",
+    "name_ja": "複合領域",
+    "name_en": "Complex systems",
+    "sub_sections": []
+  }
+]

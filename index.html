@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>情報可視化</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+        #slider-range {
+            width: 50%;
+            /* スライダーの幅を50%に設定 */
+            margin-right: auto;
+            /* スライダーの右側に自動的にマージンを設定 */
+        }
+
+        .ui-slider-range {
+            background: #82b74b;
+            /* スライダーの選択範囲の背景色を設定 */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Research Atlas</h1>
+    </div>
+
+    <div id="wrapper">
+
+        <nav id="control">
+            <div id="level-display">
+                <h2>現在の階層</h2>
+                <div id="currentLevel"></div>
+            </div>
+
+            <div class="slider-info">
+                <p>研究開始年度: <span id="year_start"></span> - 研究終了年度: <span id="year_end"></span></p>
+                <div id="slider-range"></div>
+            </div>
+            <div class="button-group">
+                <button id="select_field">最初に戻る</button>
+                <button id="select_institution">研究機関別</button>
+                <button id="backButton">上の階層に戻る</button>
+                <button id="return_to_field" style="display:none;">研究分野別に戻る</button>
+            </div>
+        </nav>
+
+        <div id="main-container">
+            <div id="left-container">
+                <div id="graph-container">
+                    <!-- グラフがここに描画されます -->
+                </div>
+                <div id="footer-note">
+                    <p>注意：ランキングは、研究課題数が10以上の区分または機関を考慮しています。</p>
+                    <p>注意：年によって分類区分が異なる都合上、一部重複する分類がございます。</p>
+                </div>
+            </div>
+            <div id="right-container">
+                <div id="word-cloud-container">
+                    <h3>研究課題のキーワード</h3>
+                    <div id="word-cloud">
+                        <!-- キーワードがここに表示されます -->
+                    </div>
+                </div>
+                <div id="ranking-container">
+                    <div id="institution-selection" style="display:none;">
+                        <label for="budget-range">研究機関の予算規模:</label>
+                        <select id="budget-range">
+                            <option value="top10">上位10位</option>
+                            <option value="top50">上位50位</option>
+                            <option value="all" selected>全ての研究機関</option>
+                        </select>
+                    </div>
+
+                    <div id="paperRanking" class="ranking">
+                        <h3>科研費取得額100万円あたりの論文数ランキング</h3>
+                        <!-- 論文数/取得額のランキングがここに表示されます -->
+                    </div>
+                    <div id="citationRanking" class="ranking">
+                        <h3>科研費取得額100万円あたりの被引用件数ランキング</h3>
+                        <!-- 被引用件数/取得額のランキングがここに表示されます -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="./js/d3.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script type="text/javascript" src="./js/d3.layout.cloud.js"></script>
+<script>
+    $(function () {
+        $("#slider-range").slider({
+            range: true,
+            min: 2003,
+            max: 2023,
+            values: [2003, 2023],
+            slide: function (event, ui) {
+                $("#year_start").text(ui.values[0]);
+                $("#year_end").text(ui.values[1]);
+            }
+        });
+        $("#year_start").text($("#slider-range").slider("values", 0));
+        $("#year_end").text($("#slider-range").slider("values", 1));
+    });
+</script>
+</body>
+
+</html>

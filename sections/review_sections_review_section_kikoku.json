@@ -1,0 +1,72 @@
+[
+  {
+    "code_nii": "799",
+    "code_mext": "W101",
+    "name_ja": "情報学",
+    "name_en": "Informatics",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "800",
+    "code_mext": "W102",
+    "name_ja": "環境学",
+    "name_en": "Environmental Science",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "801",
+    "code_mext": "W201",
+    "name_ja": "人文学",
+    "name_en": "Humanities",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "802",
+    "code_mext": "W202",
+    "name_ja": "社会科学",
+    "name_en": "Social Sciences",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "803",
+    "code_mext": "W301",
+    "name_ja": "数物系科学",
+    "name_en": "Mathematics/Physics",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "804",
+    "code_mext": "W302",
+    "name_ja": "化学",
+    "name_en": "Chemistry",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "805",
+    "code_mext": "W303",
+    "name_ja": "工学",
+    "name_en": "Engineering",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "806",
+    "code_mext": "W401",
+    "name_ja": "生物学",
+    "name_en": "Biological Science",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "807",
+    "code_mext": "W402",
+    "name_ja": "農学",
+    "name_en": "Agricultural Science",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "808",
+    "code_mext": "W403",
+    "name_ja": "医歯薬学",
+    "name_en": "Medicine, Dentistry, and Pharmacy",
+    "sub_sections": []
+  }
+]

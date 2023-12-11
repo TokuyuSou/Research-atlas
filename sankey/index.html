@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Research Atlas</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <style>
+    path.linkpath {
+      stroke: black;
+      fill: rgba(30, 30, 200, 0.1);
+    }
+
+    text.node-label {
+      font-size: 0.7rem;
+    }
+
+    td.num {
+      text-align: right;
+      padding-left: 2em;
+    }
+
+    tr {
+      border-bottom: solid 1px #aaa;
+    }
+
+    tr::nth-of-type(odd) {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <h1 id="page_title">Research Atlas</h1>
+  </div>
+
+  <nav>
+    <button id="backButton">戻る</button>
+  </nav>
+
+  <div>
+    <strong>絞り込み</strong>
+    <select id="selectData">
+      <option value="awardAmount">取得額</option>
+      <option value="citation">被引用件数/投稿先の影響力</option>
+      <!-- <option value="impact">投稿先の影響力</option> -->
+    </select>の大きいものから順に
+    <select id="itemCount">
+      <option value="10">10件</option>
+      <option value="20">20件</option>
+      <option value="all">すべて</option>
+    </select>表示
+  </div>
+
+  <div>
+    <strong>表示</strong>
+    成果の<select id="type">
+      <option value="citation">引用数を図示する</option>
+      <option value="conference">投稿先でまとめる</option>
+    </select>
+    並び順：<select id="sort">
+      <option value="default">デフォルト</option>
+      <option value="citation">引用数/投稿先の影響力</option>
+      <!-- <option value="impact">投稿先の影響力</option> -->
+    </select><br>
+
+    <!-- <label><input type="checkbox" id="top10">引用数上位10%のみ表示</label> -->
+  </div>
+
+  <div>
+    各項目（研究課題・成果）をクリックするとそれに関連する項目をハイライトできます。
+  </div>
+
+
+  <figure id="fig">
+  </figure>
+
+  <div>
+    <h1>研究課題リスト</h1>
+    <table id="grants">
+    </table>
+  </div>
+
+  <script type="text/javascript" src="/js/d3.min.js"></script>
+  <script src="https://unpkg.com/d3-sankey@0"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

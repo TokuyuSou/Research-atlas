@@ -1,0 +1,125 @@
+{
+    "research": [
+        {
+            "name": "タイトルが長そうで長くない少し長いもずくの研究に関する批判の自然主義的再検討のための試論",
+            "cost": 1000000,
+            "year": 2018,
+            "category": "若気の至り研究",
+            "output": [
+                {
+                    "type": "paper",
+                    "conference": "International Seaweed Symposium",
+                    "conference_impact": 15.2,
+                    "title": "もずくに関するすごい論文1",
+                    "citations": 140
+                },
+                {
+                    "type": "paper",
+                    "conference": "International Seaweed Symposium",
+                    "conference_impact": 15.2,
+                    "title": "もずくに関するすごい論文2",
+                    "citations": 120
+                },
+                {
+                    "type": "paper",
+                    "conference": "Marine Biotechnology Conference",
+                    "conference_impact": 10.1,
+                    "title": "もずくに関する新規論文",
+                    "citations": 95
+                }
+            ]
+        },
+        {
+            "name": "わかめの研究",
+            "cost" : 1800000,
+            "year": 2019,
+            "category": "基礎研究X",
+            "output": [
+                {
+                    "type": "paper",
+                    "conference": "International Seaweed Symposium",
+                    "conference_impact": 15.2,
+                    "title": "わかめに関するすごい論文1",
+                    "citations": 80
+                },
+                {
+                    "type": "paper",
+                    "conference": "本郷味噌汁学会",
+                    "conference_impact": 1.2,
+                    "title": "わかめに関するしょぼい論文1",
+                    "citations": 10
+                },
+                {
+                    "type": "paper",
+                    "conference": "本郷味噌汁学会",
+                    "conference_impact": 1.2,
+                    "title": "わかめに関するしょぼい論文2",
+                    "citations": 20
+                }
+            ]
+        },
+        {
+            "name": "海藻全般の研究",
+            "cost" : 1300000,
+            "year": 2020,
+            "output": [
+                {
+                    "type": "paper",
+                    "conference": "International Seaweed Symposium",
+                    "conference_impact": 15.2,
+                    "title": "海藻全般に関するすごい論文1",
+                    "citations": 200
+                },
+                {
+                    "type": "paper",
+                    "conference": "International Seaweed Symposium",
+                    "conference_impact": 15.2,
+                    "title": "海藻全般に関するすごい論文2",
+                    "citations": 220
+                },
+                {
+                    "type": "paper",
+                    "conference": "International Oceanography Conference",
+                    "conference_impact": 30.2,
+                    "title": "海藻全般に関する新規の研究論文",
+                    "citations": 300
+                }
+            ]
+        },
+        {
+            "name": "昆布の研究",
+            "cost" : 900000,
+            "year": 2020,
+            "output": [
+                {
+                    "type": "paper",
+                    "conference": "International Umami Symposium",
+                    "conference_impact": 10.7,
+                    "title": "昆布に関するすごい論文1",
+                    "citations": 150
+                },
+                {
+                    "type": "paper",
+                    "conference": "International Umami Symposium",
+                    "conference_impact": 10.7,
+                    "title": "昆布に関するすごい論文2",
+                    "citations": 160
+                },
+                {
+                    "type": "paper",
+                    "conference": "本郷味噌汁学会",
+                    "conference_impact": 1.2,
+                    "title": "昆布に関するしょぼい論文1",
+                    "citations": 40
+                },
+                {
+                    "type": "paper",
+                    "conference": "本郷味噌汁学会",
+                    "conference_impact": 1.2,
+                    "title": "昆布に関するしょぼい論文2",
+                    "citations": 45
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3075 @@
+[
+  {
+    "code_nii": "1",
+    "code_mext": "A",
+    "name_ja": "大区分A",
+    "name_en": "Broad Section A",
+    "sub_sections": [
+      {
+        "code_nii": "2",
+        "code_mext": "01",
+        "name_ja": "中区分1:思想、芸術およびその関連分野",
+        "name_en": "Medium-sized Section 1:Philosophy, art, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "3",
+            "code_mext": "01010",
+            "name_ja": "小区分01010:哲学および倫理学関連",
+            "name_en": "Basic Section 01010:Philosophy and ethics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "4",
+            "code_mext": "01020",
+            "name_ja": "小区分01020:中国哲学、印度哲学および仏教学関連",
+            "name_en": "Basic Section 01020:Chinese philosophy, Indian philosophy and Buddhist philosophy-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "5",
+            "code_mext": "01030",
+            "name_ja": "小区分01030:宗教学関連",
+            "name_en": "Basic Section 01030:Religious studies-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "6",
+            "code_mext": "01040",
+            "name_ja": "小区分01040:思想史関連",
+            "name_en": "Basic Section 01040:History of thought-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "7",
+            "code_mext": "01050",
+            "name_ja": "小区分01050:美学および芸術論関連",
+            "name_en": "Basic Section 01050:Aesthetics and art studies-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "8",
+            "code_mext": "01060",
+            "name_ja": "小区分01060:美術史関連",
+            "name_en": "Basic Section 01060:History of arts-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "9",
+            "code_mext": "01070",
+            "name_ja": "小区分01070:芸術実践論関連",
+            "name_en": "Basic Section 01070:Theory of art practice-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "10",
+            "code_mext": "01080",
+            "name_ja": "小区分01080:科学社会学および科学技術史関連",
+            "name_en": "Basic Section 01080:Sociology of science, history of science and technology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "11",
+            "code_mext": "90010",
+            "name_ja": "小区分90010:デザイン学関連",
+            "name_en": "Basic Section 90010:Design-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "809",
+            "code_mext": "M01010-01080",
+            "name_ja": "合同審査対象区分:小区分01010:哲学および倫理学関連、小区分01080:科学社会学および科学技術史関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section01010:Philosophy and ethics-related , Basic Section01080:Sociology of science, history of science and technology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "810",
+            "code_mext": "M01020-01030-01040",
+            "name_ja": "合同審査対象区分:小区分01020:中国哲学、印度哲学および仏教学関連、小区分01030:宗教学関連、小区分01040:思想史関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section01020:Chinese philosophy, Indian philosophy and  Buddhist philosophy-related , Basic Section01030:Religious studies-related , Basic Section01040:History of thought-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "12",
+        "code_mext": "02",
+        "name_ja": "中区分2:文学、言語学およびその関連分野",
+        "name_en": "Medium-sized Section 2:Literature, linguistics, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "13",
+            "code_mext": "02010",
+            "name_ja": "小区分02010:日本文学関連",
+            "name_en": "Basic Section 02010:Japanese literature-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "14",
+            "code_mext": "02020",
+            "name_ja": "小区分02020:中国文学関連",
+            "name_en": "Basic Section 02020:Chinese literature-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "15",
+            "code_mext": "02030",
+            "name_ja": "小区分02030:英文学および英語圏文学関連",
+            "name_en": "Basic Section 02030:English literature and literature in the English language-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "16",
+            "code_mext": "02040",
+            "name_ja": "小区分02040:ヨーロッパ文学関連",
+            "name_en": "Basic Section 02040:European literature-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "17",
+            "code_mext": "02050",
+            "name_ja": "小区分02050:文学一般関連",
+            "name_en": "Basic Section 02050:Literature in general-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "18",
+            "code_mext": "02060",
+            "name_ja": "小区分02060:言語学関連",
+            "name_en": "Basic Section 02060:Linguistics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "19",
+            "code_mext": "02070",
+            "name_ja": "小区分02070:日本語学関連",
+            "name_en": "Basic Section 02070:Japanese linguistics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "20",
+            "code_mext": "02080",
+            "name_ja": "小区分02080:英語学関連",
+            "name_en": "Basic Section 02080:English linguistics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "21",
+            "code_mext": "02090",
+            "name_ja": "小区分02090:日本語教育関連",
+            "name_en": "Basic Section 02090:Japanese language education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "22",
+            "code_mext": "02100",
+            "name_ja": "小区分02100:外国語教育関連",
+            "name_en": "Basic Section 02100:Foreign language education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "23",
+            "code_mext": "90020",
+            "name_ja": "小区分90020:図書館情報学および人文社会情報学関連",
+            "name_en": "Basic Section 90020:Library and information science, humanistic and social informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "811",
+            "code_mext": "M02010-02020",
+            "name_ja": "合同審査対象区分:小区分02010:日本文学関連、小区分02020:中国文学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section02010:Japanese literature-related , Basic Section02020:Chinese literature-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "812",
+            "code_mext": "M02030-02040",
+            "name_ja": "合同審査対象区分:小区分02030:英文学および英語圏文学関連、小区分02040:ヨーロッパ文学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section02030:English literature and literature in the English language-related , Basic Section02040:European literature-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "813",
+            "code_mext": "M02060-02080",
+            "name_ja": "合同審査対象区分:小区分02060:言語学関連、小区分02080:英語学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section02060:Linguistics-related , Basic Section02080:English linguistics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "814",
+            "code_mext": "M02070-02090",
+            "name_ja": "合同審査対象区分:小区分02070:日本語学関連、小区分02090:日本語教育関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section02070:Japanese linguistics-related , Basic Section02090:Japanese language education-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "24",
+        "code_mext": "03",
+        "name_ja": "中区分3:歴史学、考古学、博物館学およびその関連分野",
+        "name_en": "Medium-sized Section 3:History, archaeology, museology, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "25",
+            "code_mext": "03010",
+            "name_ja": "小区分03010:史学一般関連",
+            "name_en": "Basic Section 03010:Historical studies in general-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "26",
+            "code_mext": "03020",
+            "name_ja": "小区分03020:日本史関連",
+            "name_en": "Basic Section 03020:Japanese history-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "27",
+            "code_mext": "03030",
+            "name_ja": "小区分03030:アジア史およびアフリカ史関連",
+            "name_en": "Basic Section 03030:History of Asia and Africa-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "28",
+            "code_mext": "03040",
+            "name_ja": "小区分03040:ヨーロッパ史およびアメリカ史関連",
+            "name_en": "Basic Section 03040:History of Europe and America-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "29",
+            "code_mext": "03050",
+            "name_ja": "小区分03050:考古学関連",
+            "name_en": "Basic Section 03050:Archaeology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "30",
+            "code_mext": "03060",
+            "name_ja": "小区分03060:文化財科学関連",
+            "name_en": "Basic Section 03060:Cultural assets study-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "31",
+            "code_mext": "03070",
+            "name_ja": "小区分03070:博物館学関連",
+            "name_en": "Basic Section 03070:Museology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "815",
+            "code_mext": "M03060-03070",
+            "name_ja": "合同審査対象区分:小区分03060:文化財科学関連、小区分03070:博物館学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section03060:Cultural assets study-related , Basic Section03070:Museology-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "32",
+        "code_mext": "04",
+        "name_ja": "中区分4:地理学、文化人類学、民俗学およびその関連分野",
+        "name_en": "Medium-sized Section 4:Geography, cultural anthropology, folklore, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "33",
+            "code_mext": "04010",
+            "name_ja": "小区分04010:地理学関連",
+            "name_en": "Basic Section 04010:Geography-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "34",
+            "code_mext": "04020",
+            "name_ja": "小区分04020:人文地理学関連",
+            "name_en": "Basic Section 04020:Human geography-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "35",
+            "code_mext": "04030",
+            "name_ja": "小区分04030:文化人類学および民俗学関連",
+            "name_en": "Basic Section 04030:Cultural anthropology and folklore-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "36",
+            "code_mext": "80010",
+            "name_ja": "小区分80010:地域研究関連",
+            "name_en": "Basic Section 80010:Area studies-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "37",
+            "code_mext": "80020",
+            "name_ja": "小区分80020:観光学関連",
+            "name_en": "Basic Section 80020:Tourism studies-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "38",
+            "code_mext": "80030",
+            "name_ja": "小区分80030:ジェンダー関連",
+            "name_en": "Basic Section 80030:Gender studies-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "39",
+        "code_mext": "05",
+        "name_ja": "中区分5:法学およびその関連分野",
+        "name_en": "Medium-sized Section 5:Law and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "40",
+            "code_mext": "05010",
+            "name_ja": "小区分05010:基礎法学関連",
+            "name_en": "Basic Section 05010:Legal theory and history-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "41",
+            "code_mext": "05020",
+            "name_ja": "小区分05020:公法学関連",
+            "name_en": "Basic Section 05020:Public law-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "42",
+            "code_mext": "05030",
+            "name_ja": "小区分05030:国際法学関連",
+            "name_en": "Basic Section 05030:International law-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "43",
+            "code_mext": "05040",
+            "name_ja": "小区分05040:社会法学関連",
+            "name_en": "Basic Section 05040:Social law-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "44",
+            "code_mext": "05050",
+            "name_ja": "小区分05050:刑事法学関連",
+            "name_en": "Basic Section 05050:Criminal law-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "45",
+            "code_mext": "05060",
+            "name_ja": "小区分05060:民事法学関連",
+            "name_en": "Basic Section 05060:Civil law-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "46",
+            "code_mext": "05070",
+            "name_ja": "小区分05070:新領域法学関連",
+            "name_en": "Basic Section 05070:New fields of law-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "816",
+            "code_mext": "M05010-05030",
+            "name_ja": "合同審査対象区分:小区分05010:基礎法学関連、小区分05030:国際法学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section05010:Legal theory and history-related , Basic Section05030:International law-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "817",
+            "code_mext": "M05040-05060",
+            "name_ja": "合同審査対象区分:小区分05040:社会法学関連、小区分05060:民事法学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section05040:Social law-related , Basic Section05060:Civil law-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "47",
+        "code_mext": "06",
+        "name_ja": "中区分6:政治学およびその関連分野",
+        "name_en": "Medium-sized Section 6:Political science and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "48",
+            "code_mext": "06010",
+            "name_ja": "小区分06010:政治学関連",
+            "name_en": "Basic Section 06010:Politics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "49",
+            "code_mext": "06020",
+            "name_ja": "小区分06020:国際関係論関連",
+            "name_en": "Basic Section 06020:International relations-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "36",
+            "code_mext": "80010",
+            "name_ja": "小区分80010:地域研究関連",
+            "name_en": "Basic Section 80010:Area studies-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "38",
+            "code_mext": "80030",
+            "name_ja": "小区分80030:ジェンダー関連",
+            "name_en": "Basic Section 80030:Gender studies-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "50",
+        "code_mext": "07",
+        "name_ja": "中区分7:経済学、経営学およびその関連分野",
+        "name_en": "Medium-sized Section 7:Economics, business administration, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "51",
+            "code_mext": "07010",
+            "name_ja": "小区分07010:理論経済学関連",
+            "name_en": "Basic Section 07010:Economic theory-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "52",
+            "code_mext": "07020",
+            "name_ja": "小区分07020:経済学説および経済思想関連",
+            "name_en": "Basic Section 07020:Economic doctrines and economic thought-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "53",
+            "code_mext": "07030",
+            "name_ja": "小区分07030:経済統計関連",
+            "name_en": "Basic Section 07030:Economic statistics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "54",
+            "code_mext": "07040",
+            "name_ja": "小区分07040:経済政策関連",
+            "name_en": "Basic Section 07040:Economic policy-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "55",
+            "code_mext": "07050",
+            "name_ja": "小区分07050:公共経済および労働経済関連",
+            "name_en": "Basic Section 07050:Public economics and labor economics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "56",
+            "code_mext": "07060",
+            "name_ja": "小区分07060:金融およびファイナンス関連",
+            "name_en": "Basic Section 07060:Money and finance-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "57",
+            "code_mext": "07070",
+            "name_ja": "小区分07070:経済史関連",
+            "name_en": "Basic Section 07070:Economic history-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "58",
+            "code_mext": "07080",
+            "name_ja": "小区分07080:経営学関連",
+            "name_en": "Basic Section 07080:Business administration-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "59",
+            "code_mext": "07090",
+            "name_ja": "小区分07090:商学関連",
+            "name_en": "Basic Section 07090:Commerce-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "60",
+            "code_mext": "07100",
+            "name_ja": "小区分07100:会計学関連",
+            "name_en": "Basic Section 07100:Accounting-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "37",
+            "code_mext": "80020",
+            "name_ja": "小区分80020:観光学関連",
+            "name_en": "Basic Section 80020:Tourism studies-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "818",
+            "code_mext": "M07010-07020",
+            "name_ja": "合同審査対象区分:小区分07010:理論経済学関連、小区分07020:経済学説および経済思想関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section07010:Economic theory-related , Basic Section07020:Economic doctrines and economic thought-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "819",
+            "code_mext": "M07030-07060",
+            "name_ja": "合同審査対象区分:小区分07030:経済統計関連、小区分07060:金融およびファイナンス関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section07030:Economic statistics-related , Basic Section07060:Money and finance-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "61",
+        "code_mext": "08",
+        "name_ja": "中区分8:社会学およびその関連分野",
+        "name_en": "Medium-sized Section 8:Sociology and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "62",
+            "code_mext": "08010",
+            "name_ja": "小区分08010:社会学関連",
+            "name_en": "Basic Section 08010:Sociology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "63",
+            "code_mext": "08020",
+            "name_ja": "小区分08020:社会福祉学関連",
+            "name_en": "Basic Section 08020:Social welfare-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "64",
+            "code_mext": "08030",
+            "name_ja": "小区分08030:家政学および生活科学関連",
+            "name_en": "Basic Section 08030:Family and consumer sciences, and culture and living-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "37",
+            "code_mext": "80020",
+            "name_ja": "小区分80020:観光学関連",
+            "name_en": "Basic Section 80020:Tourism studies-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "38",
+            "code_mext": "80030",
+            "name_ja": "小区分80030:ジェンダー関連",
+            "name_en": "Basic Section 80030:Gender studies-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "820",
+            "code_mext": "M80030-08010",
+            "name_ja": "合同審査対象区分:小区分80030:ジェンダー関連、小区分08010:社会学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section80030:Gender studies-related , Basic Section08010:Sociology-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "65",
+        "code_mext": "09",
+        "name_ja": "中区分9:教育学およびその関連分野",
+        "name_en": "Medium-sized Section 9:Education and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "21",
+            "code_mext": "02090",
+            "name_ja": "小区分02090:日本語教育関連",
+            "name_en": "Basic Section 02090:Japanese language education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "22",
+            "code_mext": "02100",
+            "name_ja": "小区分02100:外国語教育関連",
+            "name_en": "Basic Section 02100:Foreign language education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "66",
+            "code_mext": "09010",
+            "name_ja": "小区分09010:教育学関連",
+            "name_en": "Basic Section 09010:Education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "67",
+            "code_mext": "09020",
+            "name_ja": "小区分09020:教育社会学関連",
+            "name_en": "Basic Section 09020:Sociology of education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "68",
+            "code_mext": "09030",
+            "name_ja": "小区分09030:子ども学および保育学関連",
+            "name_en": "Basic Section 09030:Childhood and nursery/pre-school education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "69",
+            "code_mext": "09040",
+            "name_ja": "小区分09040:教科教育学および初等中等教育学関連",
+            "name_en": "Basic Section 09040:Education on school subjects and primary/secondary education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "70",
+            "code_mext": "09050",
+            "name_ja": "小区分09050:高等教育学関連",
+            "name_en": "Basic Section 09050:Tertiary education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "71",
+            "code_mext": "09060",
+            "name_ja": "小区分09060:特別支援教育関連",
+            "name_en": "Basic Section 09060:Special needs education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "72",
+            "code_mext": "09070",
+            "name_ja": "小区分09070:教育工学関連",
+            "name_en": "Basic Section 09070:Educational technology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "73",
+            "code_mext": "09080",
+            "name_ja": "小区分09080:科学教育関連",
+            "name_en": "Basic Section 09080:Science education-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "74",
+        "code_mext": "10",
+        "name_ja": "中区分10:心理学およびその関連分野",
+        "name_en": "Medium-sized Section 10:Psychology and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "75",
+            "code_mext": "10010",
+            "name_ja": "小区分10010:社会心理学関連",
+            "name_en": "Basic Section 10010:Social psychology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "76",
+            "code_mext": "10020",
+            "name_ja": "小区分10020:教育心理学関連",
+            "name_en": "Basic Section 10020:Educational psychology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "77",
+            "code_mext": "10030",
+            "name_ja": "小区分10030:臨床心理学関連",
+            "name_en": "Basic Section 10030:Clinical psychology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "78",
+            "code_mext": "10040",
+            "name_ja": "小区分10040:実験心理学関連",
+            "name_en": "Basic Section 10040:Experimental psychology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "79",
+            "code_mext": "90030",
+            "name_ja": "小区分90030:認知科学関連",
+            "name_en": "Basic Section 90030:Cognitive science-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "80",
+    "code_mext": "B",
+    "name_ja": "大区分B",
+    "name_en": "Broad Section B",
+    "sub_sections": [
+      {
+        "code_nii": "81",
+        "code_mext": "11",
+        "name_ja": "中区分11:代数学、幾何学およびその関連分野",
+        "name_en": "Medium-sized Section 11:Algebra, geometry, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "82",
+            "code_mext": "11010",
+            "name_ja": "小区分11010:代数学関連",
+            "name_en": "Basic Section 11010:Algebra-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "83",
+            "code_mext": "11020",
+            "name_ja": "小区分11020:幾何学関連",
+            "name_en": "Basic Section 11020:Geometry-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "84",
+        "code_mext": "12",
+        "name_ja": "中区分12:解析学、応用数学およびその関連分野",
+        "name_en": "Medium-sized Section 12:Analysis, applied mathematics, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "85",
+            "code_mext": "12010",
+            "name_ja": "小区分12010:基礎解析学関連",
+            "name_en": "Basic Section 12010:Basic analysis-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "86",
+            "code_mext": "12020",
+            "name_ja": "小区分12020:数理解析学関連",
+            "name_en": "Basic Section 12020:Mathematical analysis-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "87",
+            "code_mext": "12030",
+            "name_ja": "小区分12030:数学基礎関連",
+            "name_en": "Basic Section 12030:Basic mathematics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "88",
+            "code_mext": "12040",
+            "name_ja": "小区分12040:応用数学および統計数学関連",
+            "name_en": "Basic Section 12040:Applied mathematics and statistics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "821",
+            "code_mext": "M12030-12040",
+            "name_ja": "合同審査対象区分:小区分12030:数学基礎関連、小区分12040:応用数学および統計数学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section12030:Basic mathematics-related , Basic Section12040:Applied mathematics and statistics-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "89",
+        "code_mext": "13",
+        "name_ja": "中区分13:物性物理学およびその関連分野",
+        "name_en": "Medium-sized Section 13:Condensed matter physics and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "90",
+            "code_mext": "13010",
+            "name_ja": "小区分13010:数理物理および物性基礎関連",
+            "name_en": "Basic Section 13010:Mathematical physics and fundamental theory of condensed matter physics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "91",
+            "code_mext": "13020",
+            "name_ja": "小区分13020:半導体、光物性および原子物理関連",
+            "name_en": "Basic Section 13020:Semiconductors, optical properties of condensed matter and atomic physics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "92",
+            "code_mext": "13030",
+            "name_ja": "小区分13030:磁性、超伝導および強相関系関連",
+            "name_en": "Basic Section 13030:Magnetism, superconductivity and strongly correlated systems-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "93",
+            "code_mext": "13040",
+            "name_ja": "小区分13040:生物物理、化学物理およびソフトマターの物理関連",
+            "name_en": "Basic Section 13040:Biophysics, chemical physics and soft matter physics-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "94",
+        "code_mext": "14",
+        "name_ja": "中区分14:プラズマ学およびその関連分野",
+        "name_en": "Medium-sized Section 14:Plasma science and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "95",
+            "code_mext": "14010",
+            "name_ja": "小区分14010:プラズマ科学関連",
+            "name_en": "Basic Section 14010:Fundamental plasma-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "96",
+            "code_mext": "14020",
+            "name_ja": "小区分14020:核融合学関連",
+            "name_en": "Basic Section 14020:Nuclear fusion-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "97",
+            "code_mext": "14030",
+            "name_ja": "小区分14030:プラズマ応用科学関連",
+            "name_en": "Basic Section 14030:Applied plasma science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "98",
+            "code_mext": "80040",
+            "name_ja": "小区分80040:量子ビーム科学関連",
+            "name_en": "Basic Section 80040:Quantum beam science-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "99",
+        "code_mext": "15",
+        "name_ja": "中区分15:素粒子、原子核、宇宙物理学およびその関連分野",
+        "name_en": "Medium-sized Section 15:Particle-, nuclear-, astro-physics, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "100",
+            "code_mext": "15010",
+            "name_ja": "小区分15010:素粒子、原子核、宇宙線および宇宙物理に関連する理論",
+            "name_en": "Basic Section 15010:Theoretical studies related to particle-, nuclear-, cosmic ray and astro-physics",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "101",
+            "code_mext": "15020",
+            "name_ja": "小区分15020:素粒子、原子核、宇宙線および宇宙物理に関連する実験",
+            "name_en": "Basic Section 15020:Experimental studies related to particle-, nuclear-, cosmic ray and astro-physics",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "98",
+            "code_mext": "80040",
+            "name_ja": "小区分80040:量子ビーム科学関連",
+            "name_en": "Basic Section 80040:Quantum beam science-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "102",
+        "code_mext": "16",
+        "name_ja": "中区分16:天文学およびその関連分野",
+        "name_en": "Medium-sized Section 16:Astronomy and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "103",
+            "code_mext": "16010",
+            "name_ja": "小区分16010:天文学関連",
+            "name_en": "Basic Section 16010:Astronomy-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "104",
+        "code_mext": "17",
+        "name_ja": "中区分17:地球惑星科学およびその関連分野",
+        "name_en": "Medium-sized Section 17:Earth and planetary science and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "105",
+            "code_mext": "17010",
+            "name_ja": "小区分17010:宇宙惑星科学関連",
+            "name_en": "Basic Section 17010:Space and planetary sciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "106",
+            "code_mext": "17020",
+            "name_ja": "小区分17020:大気水圏科学関連",
+            "name_en": "Basic Section 17020:Atmospheric and hydrospheric sciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "107",
+            "code_mext": "17030",
+            "name_ja": "小区分17030:地球人間圏科学関連",
+            "name_en": "Basic Section 17030:Human geosciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "108",
+            "code_mext": "17040",
+            "name_ja": "小区分17040:固体地球科学関連",
+            "name_en": "Basic Section 17040:Solid earth sciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "109",
+            "code_mext": "17050",
+            "name_ja": "小区分17050:地球生命科学関連",
+            "name_en": "Basic Section 17050:Biogeosciences-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "110",
+    "code_mext": "C",
+    "name_ja": "大区分C",
+    "name_en": "Broad Section C",
+    "sub_sections": [
+      {
+        "code_nii": "111",
+        "code_mext": "18",
+        "name_ja": "中区分18:材料力学、生産工学、設計工学およびその関連分野",
+        "name_en": "Medium-sized Section 18:Mechanics of materials, production engineering, design engineering, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "112",
+            "code_mext": "18010",
+            "name_ja": "小区分18010:材料力学および機械材料関連",
+            "name_en": "Basic Section 18010:Mechanics of materials and materials-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "113",
+            "code_mext": "18020",
+            "name_ja": "小区分18020:加工学および生産工学関連",
+            "name_en": "Basic Section 18020:Manufacturing and production engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "114",
+            "code_mext": "18030",
+            "name_ja": "小区分18030:設計工学関連",
+            "name_en": "Basic Section 18030:Design engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "115",
+            "code_mext": "18040",
+            "name_ja": "小区分18040:機械要素およびトライボロジー関連",
+            "name_en": "Basic Section 18040:Machine elements and tribology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "822",
+            "code_mext": "M18030-18040",
+            "name_ja": "合同審査対象区分:小区分18030:設計工学関連、小区分18040:機械要素およびトライボロジー関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section18030:Design engineering-related , Basic Section18040:Machine elements and tribology-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "116",
+        "code_mext": "19",
+        "name_ja": "中区分19:流体工学、熱工学およびその関連分野",
+        "name_en": "Medium-sized Section 19:Fluid engineering, thermal engineering, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "117",
+            "code_mext": "19010",
+            "name_ja": "小区分19010:流体工学関連",
+            "name_en": "Basic Section 19010:Fluid engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "118",
+            "code_mext": "19020",
+            "name_ja": "小区分19020:熱工学関連",
+            "name_en": "Basic Section 19020:Thermal engineering-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "119",
+        "code_mext": "20",
+        "name_ja": "中区分20:機械力学、ロボティクスおよびその関連分野",
+        "name_en": "Medium-sized Section 20:Mechanical dynamics, robotics, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "120",
+            "code_mext": "20010",
+            "name_ja": "小区分20010:機械力学およびメカトロニクス関連",
+            "name_en": "Basic Section 20010:Mechanics and mechatronics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "121",
+            "code_mext": "20020",
+            "name_ja": "小区分20020:ロボティクスおよび知能機械システム関連",
+            "name_en": "Basic Section 20020:Robotics and intelligent system-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "122",
+        "code_mext": "21",
+        "name_ja": "中区分21:電気電子工学およびその関連分野",
+        "name_en": "Medium-sized Section 21:Electrical and electronic engineering and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "123",
+            "code_mext": "21010",
+            "name_ja": "小区分21010:電力工学関連",
+            "name_en": "Basic Section 21010:Power engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "124",
+            "code_mext": "21020",
+            "name_ja": "小区分21020:通信工学関連",
+            "name_en": "Basic Section 21020:Communication and network engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "125",
+            "code_mext": "21030",
+            "name_ja": "小区分21030:計測工学関連",
+            "name_en": "Basic Section 21030:Measurement engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "126",
+            "code_mext": "21040",
+            "name_ja": "小区分21040:制御およびシステム工学関連",
+            "name_en": "Basic Section 21040:Control and system engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "127",
+            "code_mext": "21050",
+            "name_ja": "小区分21050:電気電子材料工学関連",
+            "name_en": "Basic Section 21050:Electric and electronic materials-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "128",
+            "code_mext": "21060",
+            "name_ja": "小区分21060:電子デバイスおよび電子機器関連",
+            "name_en": "Basic Section 21060:Electron device and electronic equipment-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "129",
+        "code_mext": "22",
+        "name_ja": "中区分22:土木工学およびその関連分野",
+        "name_en": "Medium-sized Section 22:Civil engineering and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "130",
+            "code_mext": "22010",
+            "name_ja": "小区分22010:土木材料、施工および建設マネジメント関連",
+            "name_en": "Basic Section 22010:Civil engineering material, execution and construction management-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "131",
+            "code_mext": "22020",
+            "name_ja": "小区分22020:構造工学および地震工学関連",
+            "name_en": "Basic Section 22020:Structure engineering and earthquake engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "132",
+            "code_mext": "22030",
+            "name_ja": "小区分22030:地盤工学関連",
+            "name_en": "Basic Section 22030:Geotechnical engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "133",
+            "code_mext": "22040",
+            "name_ja": "小区分22040:水工学関連",
+            "name_en": "Basic Section 22040:Hydroengineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "134",
+            "code_mext": "22050",
+            "name_ja": "小区分22050:土木計画学および交通工学関連",
+            "name_en": "Basic Section 22050:Civil engineering plan and transportation engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "135",
+            "code_mext": "22060",
+            "name_ja": "小区分22060:土木環境システム関連",
+            "name_en": "Basic Section 22060:Environmental systems for civil engineering-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "136",
+        "code_mext": "23",
+        "name_ja": "中区分23:建築学およびその関連分野",
+        "name_en": "Medium-sized Section 23:Architecture, building engineering, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "137",
+            "code_mext": "23010",
+            "name_ja": "小区分23010:建築構造および材料関連",
+            "name_en": "Basic Section 23010:Building structures and materials-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "138",
+            "code_mext": "23020",
+            "name_ja": "小区分23020:建築環境および建築設備関連",
+            "name_en": "Basic Section 23020:Architectural environment and building equipment-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "139",
+            "code_mext": "23030",
+            "name_ja": "小区分23030:建築計画および都市計画関連",
+            "name_en": "Basic Section 23030:Architectural planning and city planning-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "140",
+            "code_mext": "23040",
+            "name_ja": "小区分23040:建築史および意匠関連",
+            "name_en": "Basic Section 23040:Architectural history and design-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "11",
+            "code_mext": "90010",
+            "name_ja": "小区分90010:デザイン学関連",
+            "name_en": "Basic Section 90010:Design-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "141",
+        "code_mext": "24",
+        "name_ja": "中区分24:航空宇宙工学、船舶海洋工学およびその関連分野",
+        "name_en": "Medium-sized Section 24:Aerospace engineering, marine and maritime engineering, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "142",
+            "code_mext": "24010",
+            "name_ja": "小区分24010:航空宇宙工学関連",
+            "name_en": "Basic Section 24010:Aerospace engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "143",
+            "code_mext": "24020",
+            "name_ja": "小区分24020:船舶海洋工学関連",
+            "name_en": "Basic Section 24020:Marine engineering-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "144",
+        "code_mext": "25",
+        "name_ja": "中区分25:社会システム工学、安全工学、防災工学およびその関連分野",
+        "name_en": "Medium-sized Section 25:Social systems engineering, safety engineering, disaster prevention engineering, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "145",
+            "code_mext": "25010",
+            "name_ja": "小区分25010:社会システム工学関連",
+            "name_en": "Basic Section 25010:Social systems engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "146",
+            "code_mext": "25020",
+            "name_ja": "小区分25020:安全工学関連",
+            "name_en": "Basic Section 25020:Safety engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "147",
+            "code_mext": "25030",
+            "name_ja": "小区分25030:防災工学関連",
+            "name_en": "Basic Section 25030:Disaster prevention engineering-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "148",
+    "code_mext": "D",
+    "name_ja": "大区分D",
+    "name_en": "Broad Section D",
+    "sub_sections": [
+      {
+        "code_nii": "149",
+        "code_mext": "26",
+        "name_ja": "中区分26:材料工学およびその関連分野",
+        "name_en": "Medium-sized Section 26:Materials engineering and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "150",
+            "code_mext": "26010",
+            "name_ja": "小区分26010:金属材料物性関連",
+            "name_en": "Basic Section 26010:Metallic material properties-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "151",
+            "code_mext": "26020",
+            "name_ja": "小区分26020:無機材料および物性関連",
+            "name_en": "Basic Section 26020:Inorganic materials and properties-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "152",
+            "code_mext": "26030",
+            "name_ja": "小区分26030:複合材料および界面関連",
+            "name_en": "Basic Section 26030:Composite materials and interfaces-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "153",
+            "code_mext": "26040",
+            "name_ja": "小区分26040:構造材料および機能材料関連",
+            "name_en": "Basic Section 26040:Structural materials and functional materials-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "154",
+            "code_mext": "26050",
+            "name_ja": "小区分26050:材料加工および組織制御関連",
+            "name_en": "Basic Section 26050:Material processing and microstructure control-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "155",
+            "code_mext": "26060",
+            "name_ja": "小区分26060:金属生産および資源生産関連",
+            "name_en": "Basic Section 26060:Metals production and resources production-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "156",
+        "code_mext": "27",
+        "name_ja": "中区分27:化学工学およびその関連分野",
+        "name_en": "Medium-sized Section 27:Chemical engineering and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "157",
+            "code_mext": "27010",
+            "name_ja": "小区分27010:移動現象および単位操作関連",
+            "name_en": "Basic Section 27010:Transport phenomena and unit operations-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "158",
+            "code_mext": "27020",
+            "name_ja": "小区分27020:反応工学およびプロセスシステム工学関連",
+            "name_en": "Basic Section 27020:Chemical reaction and process system engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "159",
+            "code_mext": "27030",
+            "name_ja": "小区分27030:触媒プロセスおよび資源化学プロセス関連",
+            "name_en": "Basic Section 27030:Catalyst and resource chemical process-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "160",
+            "code_mext": "27040",
+            "name_ja": "小区分27040:バイオ機能応用およびバイオプロセス工学関連",
+            "name_en": "Basic Section 27040:Biofunction and bioprocess engineering-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "161",
+        "code_mext": "28",
+        "name_ja": "中区分28:ナノマイクロ科学およびその関連分野",
+        "name_en": "Medium-sized Section 28:Nano/micro science and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "162",
+            "code_mext": "28010",
+            "name_ja": "小区分28010:ナノ構造化学関連",
+            "name_en": "Basic Section 28010:Nanometer-scale chemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "163",
+            "code_mext": "28020",
+            "name_ja": "小区分28020:ナノ構造物理関連",
+            "name_en": "Basic Section 28020:Nanostructural physics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "164",
+            "code_mext": "28030",
+            "name_ja": "小区分28030:ナノ材料科学関連",
+            "name_en": "Basic Section 28030:Nanomaterials-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "165",
+            "code_mext": "28040",
+            "name_ja": "小区分28040:ナノバイオサイエンス関連",
+            "name_en": "Basic Section 28040:Nanobioscience-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "166",
+            "code_mext": "28050",
+            "name_ja": "小区分28050:ナノマイクロシステム関連",
+            "name_en": "Basic Section 28050:Nano/micro-systems-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "167",
+        "code_mext": "29",
+        "name_ja": "中区分29:応用物理物性およびその関連分野",
+        "name_en": "Medium-sized Section 29:Applied condensed matter physics and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "168",
+            "code_mext": "29010",
+            "name_ja": "小区分29010:応用物性関連",
+            "name_en": "Basic Section 29010:Applied physical properties-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "169",
+            "code_mext": "29020",
+            "name_ja": "小区分29020:薄膜および表面界面物性関連",
+            "name_en": "Basic Section 29020:Thin film/surface and interfacial physical properties-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "170",
+            "code_mext": "29030",
+            "name_ja": "小区分29030:応用物理一般関連",
+            "name_en": "Basic Section 29030:Applied condensed matter physics-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "171",
+        "code_mext": "30",
+        "name_ja": "中区分30:応用物理工学およびその関連分野",
+        "name_en": "Medium-sized Section 30:Applied physics and engineering and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "172",
+            "code_mext": "30010",
+            "name_ja": "小区分30010:結晶工学関連",
+            "name_en": "Basic Section 30010:Crystal engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "173",
+            "code_mext": "30020",
+            "name_ja": "小区分30020:光工学および光量子科学関連",
+            "name_en": "Basic Section 30020:Optical engineering and photon science-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "174",
+        "code_mext": "31",
+        "name_ja": "中区分31:原子力工学、地球資源工学、エネルギー学およびその関連分野",
+        "name_en": "Medium-sized Section 31:Nuclear engineering, earth resources engineering, energy engineering, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "175",
+            "code_mext": "31010",
+            "name_ja": "小区分31010:原子力工学関連",
+            "name_en": "Basic Section 31010:Nuclear engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "176",
+            "code_mext": "31020",
+            "name_ja": "小区分31020:地球資源工学およびエネルギー学関連",
+            "name_en": "Basic Section 31020:Earth resource engineering, Energy sciences-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "177",
+        "code_mext": "90",
+        "name_ja": "中区分90:人間医工学およびその関連分野",
+        "name_en": "Medium-sized Section 90:Biomedical engineering and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "178",
+            "code_mext": "90110",
+            "name_ja": "小区分90110:生体医工学関連",
+            "name_en": "Basic Section 90110:Biomedical engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "179",
+            "code_mext": "90120",
+            "name_ja": "小区分90120:生体材料学関連",
+            "name_en": "Basic Section 90120:Biomaterials-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "180",
+            "code_mext": "90130",
+            "name_ja": "小区分90130:医用システム関連",
+            "name_en": "Basic Section 90130:Medical systems-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "181",
+            "code_mext": "90140",
+            "name_ja": "小区分90140:医療技術評価学関連",
+            "name_en": "Basic Section 90140:Medical technology assessment-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "182",
+            "code_mext": "90150",
+            "name_ja": "小区分90150:医療福祉工学関連",
+            "name_en": "Basic Section 90150:Medical assistive technology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "832",
+            "code_mext": "M90130-90140",
+            "name_ja": "合同審査対象区分:小区分90130:医用システム関連、小区分90140:医療技術評価学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section90130:Medical systems-related , Basic Section90140:Medical technology assessment-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "183",
+    "code_mext": "E",
+    "name_ja": "大区分E",
+    "name_en": "Broad Section E",
+    "sub_sections": [
+      {
+        "code_nii": "184",
+        "code_mext": "32",
+        "name_ja": "中区分32:物理化学、機能物性化学およびその関連分野",
+        "name_en": "Medium-sized Section 32:Physical chemistry, functional solid state chemistry, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "185",
+            "code_mext": "32010",
+            "name_ja": "小区分32010:基礎物理化学関連",
+            "name_en": "Basic Section 32010:Fundamental physical chemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "186",
+            "code_mext": "32020",
+            "name_ja": "小区分32020:機能物性化学関連",
+            "name_en": "Basic Section 32020:Functional solid state chemistry-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "187",
+        "code_mext": "33",
+        "name_ja": "中区分33:有機化学およびその関連分野",
+        "name_en": "Medium-sized Section 33:Organic chemistry and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "188",
+            "code_mext": "33010",
+            "name_ja": "小区分33010:構造有機化学および物理有機化学関連",
+            "name_en": "Basic Section 33010:Structural organic chemistry and physical organic chemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "189",
+            "code_mext": "33020",
+            "name_ja": "小区分33020:有機合成化学関連",
+            "name_en": "Basic Section 33020:Synthetic organic chemistry-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "190",
+        "code_mext": "34",
+        "name_ja": "中区分34:無機・錯体化学、分析化学およびその関連分野",
+        "name_en": "Medium-sized Section 34:Inorganic/coordination chemistry, analytical chemistry, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "191",
+            "code_mext": "34010",
+            "name_ja": "小区分34010:無機・錯体化学関連",
+            "name_en": "Basic Section 34010:Inorganic/coordination chemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "192",
+            "code_mext": "34020",
+            "name_ja": "小区分34020:分析化学関連",
+            "name_en": "Basic Section 34020:Analytical chemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "193",
+            "code_mext": "34030",
+            "name_ja": "小区分34030:グリーンサステイナブルケミストリーおよび環境化学関連",
+            "name_en": "Basic Section 34030:Green sustainable chemistry and environmental chemistry-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "194",
+        "code_mext": "35",
+        "name_ja": "中区分35:高分子、有機材料およびその関連分野",
+        "name_en": "Medium-sized Section 35:Polymers, organic materials, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "195",
+            "code_mext": "35010",
+            "name_ja": "小区分35010:高分子化学関連",
+            "name_en": "Basic Section 35010:Polymer chemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "196",
+            "code_mext": "35020",
+            "name_ja": "小区分35020:高分子材料関連",
+            "name_en": "Basic Section 35020:Polymer materials-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "197",
+            "code_mext": "35030",
+            "name_ja": "小区分35030:有機機能材料関連",
+            "name_en": "Basic Section 35030:Organic functional materials-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "198",
+        "code_mext": "36",
+        "name_ja": "中区分36:無機材料化学、エネルギー関連化学およびその関連分野",
+        "name_en": "Medium-sized Section 36:Inorganic materials chemistry, energy-related chemistry, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "199",
+            "code_mext": "36010",
+            "name_ja": "小区分36010:無機物質および無機材料化学関連",
+            "name_en": "Basic Section 36010:Inorganic compounds and inorganic materials chemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "200",
+            "code_mext": "36020",
+            "name_ja": "小区分36020:エネルギー関連化学",
+            "name_en": "Basic Section 36020:Energy-related chemistry",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "201",
+        "code_mext": "37",
+        "name_ja": "中区分37:生体分子化学およびその関連分野",
+        "name_en": "Medium-sized Section 37:Biomolecular chemistry and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "202",
+            "code_mext": "37010",
+            "name_ja": "小区分37010:生体関連化学",
+            "name_en": "Basic Section 37010:Bio-related chemistry",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "203",
+            "code_mext": "37020",
+            "name_ja": "小区分37020:生物分子化学関連",
+            "name_en": "Basic Section 37020:Chemistry and chemical methodology of biomolecules-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "204",
+            "code_mext": "37030",
+            "name_ja": "小区分37030:ケミカルバイオロジー関連",
+            "name_en": "Basic Section 37030:Chemical biology-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "205",
+    "code_mext": "F",
+    "name_ja": "大区分F",
+    "name_en": "Broad Section F",
+    "sub_sections": [
+      {
+        "code_nii": "206",
+        "code_mext": "38",
+        "name_ja": "中区分38:農芸化学およびその関連分野",
+        "name_en": "Medium-sized Section 38:Agricultural chemistry and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "207",
+            "code_mext": "38010",
+            "name_ja": "小区分38010:植物栄養学および土壌学関連",
+            "name_en": "Basic Section 38010:Plant nutrition and soil science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "208",
+            "code_mext": "38020",
+            "name_ja": "小区分38020:応用微生物学関連",
+            "name_en": "Basic Section 38020:Applied microbiology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "209",
+            "code_mext": "38030",
+            "name_ja": "小区分38030:応用生物化学関連",
+            "name_en": "Basic Section 38030:Applied biochemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "210",
+            "code_mext": "38040",
+            "name_ja": "小区分38040:生物有機化学関連",
+            "name_en": "Basic Section 38040:Bioorganic chemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "211",
+            "code_mext": "38050",
+            "name_ja": "小区分38050:食品科学関連",
+            "name_en": "Basic Section 38050:Food sciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "212",
+            "code_mext": "38060",
+            "name_ja": "小区分38060:応用分子細胞生物学関連",
+            "name_en": "Basic Section 38060:Applied molecular and cellular biology-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "213",
+        "code_mext": "39",
+        "name_ja": "中区分39:生産環境農学およびその関連分野",
+        "name_en": "Medium-sized Section 39:Agricultural and environmental biology and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "214",
+            "code_mext": "39010",
+            "name_ja": "小区分39010:遺伝育種科学関連",
+            "name_en": "Basic Section 39010:Science in plant genetics and breeding-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "215",
+            "code_mext": "39020",
+            "name_ja": "小区分39020:作物生産科学関連",
+            "name_en": "Basic Section 39020:Crop production science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "216",
+            "code_mext": "39030",
+            "name_ja": "小区分39030:園芸科学関連",
+            "name_en": "Basic Section 39030:Horticultural science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "217",
+            "code_mext": "39040",
+            "name_ja": "小区分39040:植物保護科学関連",
+            "name_en": "Basic Section 39040:Plant protection science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "218",
+            "code_mext": "39050",
+            "name_ja": "小区分39050:昆虫科学関連",
+            "name_en": "Basic Section 39050:Insect science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "219",
+            "code_mext": "39060",
+            "name_ja": "小区分39060:生物資源保全学関連",
+            "name_en": "Basic Section 39060:Conservation of biological resources-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "220",
+            "code_mext": "39070",
+            "name_ja": "小区分39070:ランドスケープ科学関連",
+            "name_en": "Basic Section 39070:Landscape science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "823",
+            "code_mext": "M39060-39070",
+            "name_ja": "合同審査対象区分:小区分39060:生物資源保全学関連、小区分39070:ランドスケープ科学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section39060:Conservation of biological resources-related , Basic Section39070:Landscape science-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "221",
+        "code_mext": "40",
+        "name_ja": "中区分40:森林圏科学、水圏応用科学およびその関連分野",
+        "name_en": "Medium-sized Section 40:Forestry and forest products science, applied aquatic science, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "222",
+            "code_mext": "40010",
+            "name_ja": "小区分40010:森林科学関連",
+            "name_en": "Basic Section 40010:Forest science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "223",
+            "code_mext": "40020",
+            "name_ja": "小区分40020:木質科学関連",
+            "name_en": "Basic Section 40020:Wood science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "224",
+            "code_mext": "40030",
+            "name_ja": "小区分40030:水圏生産科学関連",
+            "name_en": "Basic Section 40030:Aquatic bioproduction science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "225",
+            "code_mext": "40040",
+            "name_ja": "小区分40040:水圏生命科学関連",
+            "name_en": "Basic Section 40040:Aquatic life science-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "226",
+        "code_mext": "41",
+        "name_ja": "中区分41:社会経済農学、農業工学およびその関連分野",
+        "name_en": "Medium-sized Section 41:Agricultural economics and rural sociology, agricultural engineering, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "227",
+            "code_mext": "41010",
+            "name_ja": "小区分41010:食料農業経済関連",
+            "name_en": "Basic Section 41010:Agricultural and food economics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "228",
+            "code_mext": "41020",
+            "name_ja": "小区分41020:農業社会構造関連",
+            "name_en": "Basic Section 41020:Rural sociology and agricultural structure-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "229",
+            "code_mext": "41030",
+            "name_ja": "小区分41030:地域環境工学および農村計画学関連",
+            "name_en": "Basic Section 41030:Rural environmental engineering and planning-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "230",
+            "code_mext": "41040",
+            "name_ja": "小区分41040:農業環境工学および農業情報工学関連",
+            "name_en": "Basic Section 41040:Agricultural environmental engineering and agricultural information engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "231",
+            "code_mext": "41050",
+            "name_ja": "小区分41050:環境農学関連",
+            "name_en": "Basic Section 41050:Environmental agriculture-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "232",
+        "code_mext": "42",
+        "name_ja": "中区分42:獣医学、畜産学およびその関連分野",
+        "name_en": "Medium-sized Section 42:Veterinary medical science, animal science, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "233",
+            "code_mext": "42010",
+            "name_ja": "小区分42010:動物生産科学関連",
+            "name_en": "Basic Section 42010:Animal production science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "234",
+            "code_mext": "42020",
+            "name_ja": "小区分42020:獣医学関連",
+            "name_en": "Basic Section 42020:Veterinary medical science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "235",
+            "code_mext": "42030",
+            "name_ja": "小区分42030:動物生命科学関連",
+            "name_en": "Basic Section 42030:Animal life science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "236",
+            "code_mext": "42040",
+            "name_ja": "小区分42040:実験動物学関連",
+            "name_en": "Basic Section 42040:Laboratory animal science-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "237",
+    "code_mext": "G",
+    "name_ja": "大区分G",
+    "name_en": "Broad Section G",
+    "sub_sections": [
+      {
+        "code_nii": "238",
+        "code_mext": "43",
+        "name_ja": "中区分43:分子レベルから細胞レベルの生物学およびその関連分野",
+        "name_en": "Medium-sized Section 43:Biology at molecular to cellular levels, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "239",
+            "code_mext": "43010",
+            "name_ja": "小区分43010:分子生物学関連",
+            "name_en": "Basic Section 43010:Molecular biology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "240",
+            "code_mext": "43020",
+            "name_ja": "小区分43020:構造生物化学関連",
+            "name_en": "Basic Section 43020:Structural biochemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "241",
+            "code_mext": "43030",
+            "name_ja": "小区分43030:機能生物化学関連",
+            "name_en": "Basic Section 43030:Functional biochemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "242",
+            "code_mext": "43040",
+            "name_ja": "小区分43040:生物物理学関連",
+            "name_en": "Basic Section 43040:Biophysics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "243",
+            "code_mext": "43050",
+            "name_ja": "小区分43050:ゲノム生物学関連",
+            "name_en": "Basic Section 43050:Genome biology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "244",
+            "code_mext": "43060",
+            "name_ja": "小区分43060:システムゲノム科学関連",
+            "name_en": "Basic Section 43060:System genome science-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "245",
+        "code_mext": "44",
+        "name_ja": "中区分44:細胞レベルから個体レベルの生物学およびその関連分野",
+        "name_en": "Medium-sized Section 44:Biology at cellular to organismal levels, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "246",
+            "code_mext": "44010",
+            "name_ja": "小区分44010:細胞生物学関連",
+            "name_en": "Basic Section 44010:Cell biology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "247",
+            "code_mext": "44020",
+            "name_ja": "小区分44020:発生生物学関連",
+            "name_en": "Basic Section 44020:Developmental biology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "248",
+            "code_mext": "44030",
+            "name_ja": "小区分44030:植物分子および生理科学関連",
+            "name_en": "Basic Section 44030:Plant molecular biology and physiology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "249",
+            "code_mext": "44040",
+            "name_ja": "小区分44040:形態および構造関連",
+            "name_en": "Basic Section 44040:Morphology and anatomical structure-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "250",
+            "code_mext": "44050",
+            "name_ja": "小区分44050:動物生理化学、生理学および行動学関連",
+            "name_en": "Basic Section 44050:Animal physiological chemistry, physiology and behavioral biology-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "251",
+        "code_mext": "45",
+        "name_ja": "中区分45:個体レベルから集団レベルの生物学と人類学およびその関連分野",
+        "name_en": "Medium-sized Section 45:Biology at organismal to population levels and anthropology, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "252",
+            "code_mext": "45010",
+            "name_ja": "小区分45010:遺伝学関連",
+            "name_en": "Basic Section 45010:Genetics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "253",
+            "code_mext": "45020",
+            "name_ja": "小区分45020:進化生物学関連",
+            "name_en": "Basic Section 45020:Evolutionary biology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "254",
+            "code_mext": "45030",
+            "name_ja": "小区分45030:多様性生物学および分類学関連",
+            "name_en": "Basic Section 45030:Biodiversity and systematics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "255",
+            "code_mext": "45040",
+            "name_ja": "小区分45040:生態学および環境学関連",
+            "name_en": "Basic Section 45040:Ecology and environment-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "256",
+            "code_mext": "45050",
+            "name_ja": "小区分45050:自然人類学関連",
+            "name_en": "Basic Section 45050:Physical anthropology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "257",
+            "code_mext": "45060",
+            "name_ja": "小区分45060:応用人類学関連",
+            "name_en": "Basic Section 45060:Applied anthropology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "824",
+            "code_mext": "M45010-45020",
+            "name_ja": "合同審査対象区分:小区分45010:遺伝学関連、小区分45020:進化生物学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section45010:Genetics-related ,Basic Section45020:Evolutionary biology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "825",
+            "code_mext": "M45050-45060",
+            "name_ja": "合同審査対象区分:小区分45050:自然人類学関連、小区分45060:応用人類学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section45050:Physical anthropology-related , Basic Section45060:Applied anthropology-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "258",
+        "code_mext": "46",
+        "name_ja": "中区分46:神経科学およびその関連分野",
+        "name_en": "Medium-sized Section 46:Neuroscience and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "259",
+            "code_mext": "46010",
+            "name_ja": "小区分46010:神経科学一般関連",
+            "name_en": "Basic Section 46010:Neuroscience-general-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "260",
+            "code_mext": "46020",
+            "name_ja": "小区分46020:神経形態学関連",
+            "name_en": "Basic Section 46020:Anatomy and histopathology of nervous system-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "261",
+            "code_mext": "46030",
+            "name_ja": "小区分46030:神経機能学関連",
+            "name_en": "Basic Section 46030:Function of nervous system-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "262",
+    "code_mext": "H",
+    "name_ja": "大区分H",
+    "name_en": "Broad Section H",
+    "sub_sections": [
+      {
+        "code_nii": "263",
+        "code_mext": "47",
+        "name_ja": "中区分47:薬学およびその関連分野",
+        "name_en": "Medium-sized Section 47:Pharmaceutical sciences and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "264",
+            "code_mext": "47010",
+            "name_ja": "小区分47010:薬系化学および創薬科学関連",
+            "name_en": "Basic Section 47010:Pharmaceutical chemistry and drug development sciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "265",
+            "code_mext": "47020",
+            "name_ja": "小区分47020:薬系分析および物理化学関連",
+            "name_en": "Basic Section 47020:Pharmaceutical analytical chemistry and physicochemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "266",
+            "code_mext": "47030",
+            "name_ja": "小区分47030:薬系衛生および生物化学関連",
+            "name_en": "Basic Section 47030:Pharmaceutical hygiene and biochemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "267",
+            "code_mext": "47040",
+            "name_ja": "小区分47040:薬理学関連",
+            "name_en": "Basic Section 47040:Pharmacology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "268",
+            "code_mext": "47050",
+            "name_ja": "小区分47050:環境および天然医薬資源学関連",
+            "name_en": "Basic Section 47050:Environmental and natural pharmaceutical resources-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "269",
+            "code_mext": "47060",
+            "name_ja": "小区分47060:医療薬学関連",
+            "name_en": "Basic Section 47060:Clinical pharmacy-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "826",
+            "code_mext": "M47010-47050",
+            "name_ja": "合同審査対象区分:小区分47010:薬系化学および創薬科学関連、小区分47050:環境および天然医薬資源学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section47010:Pharmaceutical chemistry and drug development sciences-related , Basic Section47050:Environmental and natural pharmaceutical resources-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "270",
+        "code_mext": "48",
+        "name_ja": "中区分48:生体の構造と機能およびその関連分野",
+        "name_en": "Medium-sized Section 48:Biomedical structure and function and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "271",
+            "code_mext": "48010",
+            "name_ja": "小区分48010:解剖学関連",
+            "name_en": "Basic Section 48010:Anatomy-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "272",
+            "code_mext": "48020",
+            "name_ja": "小区分48020:生理学関連",
+            "name_en": "Basic Section 48020:Physiology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "273",
+            "code_mext": "48030",
+            "name_ja": "小区分48030:薬理学関連",
+            "name_en": "Basic Section 48030:Pharmacology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "274",
+            "code_mext": "48040",
+            "name_ja": "小区分48040:医化学関連",
+            "name_en": "Basic Section 48040:Medical biochemistry-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "275",
+        "code_mext": "49",
+        "name_ja": "中区分49:病理病態学、感染・免疫学およびその関連分野",
+        "name_en": "Medium-sized Section 49:Pathology, infection/immunology, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "276",
+            "code_mext": "49010",
+            "name_ja": "小区分49010:病態医化学関連",
+            "name_en": "Basic Section 49010:Pathological biochemistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "277",
+            "code_mext": "49020",
+            "name_ja": "小区分49020:人体病理学関連",
+            "name_en": "Basic Section 49020:Human pathology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "278",
+            "code_mext": "49030",
+            "name_ja": "小区分49030:実験病理学関連",
+            "name_en": "Basic Section 49030:Experimental pathology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "279",
+            "code_mext": "49040",
+            "name_ja": "小区分49040:寄生虫学関連",
+            "name_en": "Basic Section 49040:Parasitology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "280",
+            "code_mext": "49050",
+            "name_ja": "小区分49050:細菌学関連",
+            "name_en": "Basic Section 49050:Bacteriology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "281",
+            "code_mext": "49060",
+            "name_ja": "小区分49060:ウイルス学関連",
+            "name_en": "Basic Section 49060:Virology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "282",
+            "code_mext": "49070",
+            "name_ja": "小区分49070:免疫学関連",
+            "name_en": "Basic Section 49070:Immunology-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "283",
+    "code_mext": "I",
+    "name_ja": "大区分I",
+    "name_en": "Broad Section I",
+    "sub_sections": [
+      {
+        "code_nii": "284",
+        "code_mext": "50",
+        "name_ja": "中区分50:腫瘍学およびその関連分野",
+        "name_en": "Medium-sized Section 50:Oncology and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "285",
+            "code_mext": "50010",
+            "name_ja": "小区分50010:腫瘍生物学関連",
+            "name_en": "Basic Section 50010:Tumor biology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "286",
+            "code_mext": "50020",
+            "name_ja": "小区分50020:腫瘍診断および治療学関連",
+            "name_en": "Basic Section 50020:Tumor diagnostics and therapeutics-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "287",
+        "code_mext": "51",
+        "name_ja": "中区分51:ブレインサイエンスおよびその関連分野",
+        "name_en": "Medium-sized Section 51:Brain sciences and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "288",
+            "code_mext": "51010",
+            "name_ja": "小区分51010:基盤脳科学関連",
+            "name_en": "Basic Section 51010:Basic brain sciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "289",
+            "code_mext": "51020",
+            "name_ja": "小区分51020:認知脳科学関連",
+            "name_en": "Basic Section 51020:Cognitive and brain science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "290",
+            "code_mext": "51030",
+            "name_ja": "小区分51030:病態神経科学関連",
+            "name_en": "Basic Section 51030:Pathophysiologic neuroscience-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "291",
+        "code_mext": "52",
+        "name_ja": "中区分52:内科学一般およびその関連分野",
+        "name_en": "Medium-sized Section 52:General internal medicine and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "292",
+            "code_mext": "52010",
+            "name_ja": "小区分52010:内科学一般関連",
+            "name_en": "Basic Section 52010:General internal medicine-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "293",
+            "code_mext": "52020",
+            "name_ja": "小区分52020:神経内科学関連",
+            "name_en": "Basic Section 52020:Neurology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "294",
+            "code_mext": "52030",
+            "name_ja": "小区分52030:精神神経科学関連",
+            "name_en": "Basic Section 52030:Psychiatry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "295",
+            "code_mext": "52040",
+            "name_ja": "小区分52040:放射線科学関連",
+            "name_en": "Basic Section 52040:Radiological sciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "296",
+            "code_mext": "52050",
+            "name_ja": "小区分52050:胎児医学および小児成育学関連",
+            "name_en": "Basic Section 52050:Embryonic medicine and pediatrics-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "297",
+        "code_mext": "53",
+        "name_ja": "中区分53:器官システム内科学およびその関連分野",
+        "name_en": "Medium-sized Section 53:Organ-based internal medicine and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "298",
+            "code_mext": "53010",
+            "name_ja": "小区分53010:消化器内科学関連",
+            "name_en": "Basic Section 53010:Gastroenterology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "299",
+            "code_mext": "53020",
+            "name_ja": "小区分53020:循環器内科学関連",
+            "name_en": "Basic Section 53020:Cardiology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "300",
+            "code_mext": "53030",
+            "name_ja": "小区分53030:呼吸器内科学関連",
+            "name_en": "Basic Section 53030:Respiratory medicine-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "301",
+            "code_mext": "53040",
+            "name_ja": "小区分53040:腎臓内科学関連",
+            "name_en": "Basic Section 53040:Nephrology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "302",
+            "code_mext": "53050",
+            "name_ja": "小区分53050:皮膚科学関連",
+            "name_en": "Basic Section 53050:Dermatology-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "303",
+        "code_mext": "54",
+        "name_ja": "中区分54:生体情報内科学およびその関連分野",
+        "name_en": "Medium-sized Section 54:Internal medicine of the bio-information integration and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "304",
+            "code_mext": "54010",
+            "name_ja": "小区分54010:血液および腫瘍内科学関連",
+            "name_en": "Basic Section 54010:Hematology and medical oncology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "305",
+            "code_mext": "54020",
+            "name_ja": "小区分54020:膠原病およびアレルギー内科学関連",
+            "name_en": "Basic Section 54020:Connective tissue disease and allergy-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "306",
+            "code_mext": "54030",
+            "name_ja": "小区分54030:感染症内科学関連",
+            "name_en": "Basic Section 54030:Infectious disease medicine-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "307",
+            "code_mext": "54040",
+            "name_ja": "小区分54040:代謝および内分泌学関連",
+            "name_en": "Basic Section 54040:Metabolism and endocrinology-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "308",
+        "code_mext": "55",
+        "name_ja": "中区分55:恒常性維持器官の外科学およびその関連分野",
+        "name_en": "Medium-sized Section 55:Surgery of the organs maintaining homeostasis and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "309",
+            "code_mext": "55010",
+            "name_ja": "小区分55010:外科学一般および小児外科学関連",
+            "name_en": "Basic Section 55010:General surgery and pediatric surgery-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "310",
+            "code_mext": "55020",
+            "name_ja": "小区分55020:消化器外科学関連",
+            "name_en": "Basic Section 55020:Digestive surgery-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "311",
+            "code_mext": "55030",
+            "name_ja": "小区分55030:心臓血管外科学関連",
+            "name_en": "Basic Section 55030:Cardiovascular surgery-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "312",
+            "code_mext": "55040",
+            "name_ja": "小区分55040:呼吸器外科学関連",
+            "name_en": "Basic Section 55040:Respiratory surgery-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "313",
+            "code_mext": "55050",
+            "name_ja": "小区分55050:麻酔科学関連",
+            "name_en": "Basic Section 55050:Anesthesiology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "314",
+            "code_mext": "55060",
+            "name_ja": "小区分55060:救急医学関連",
+            "name_en": "Basic Section 55060:Emergency medicine-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "315",
+        "code_mext": "56",
+        "name_ja": "中区分56:生体機能および感覚に関する外科学およびその関連分野",
+        "name_en": "Medium-sized Section 56:Surgery related to the biological and sensory functions and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "316",
+            "code_mext": "56010",
+            "name_ja": "小区分56010:脳神経外科学関連",
+            "name_en": "Basic Section 56010:Neurosurgery-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "317",
+            "code_mext": "56020",
+            "name_ja": "小区分56020:整形外科学関連",
+            "name_en": "Basic Section 56020:Orthopedics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "318",
+            "code_mext": "56030",
+            "name_ja": "小区分56030:泌尿器科学関連",
+            "name_en": "Basic Section 56030:Urology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "319",
+            "code_mext": "56040",
+            "name_ja": "小区分56040:産婦人科学関連",
+            "name_en": "Basic Section 56040:Obstetrics and gynecology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "320",
+            "code_mext": "56050",
+            "name_ja": "小区分56050:耳鼻咽喉科学関連",
+            "name_en": "Basic Section 56050:Otorhinolaryngology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "321",
+            "code_mext": "56060",
+            "name_ja": "小区分56060:眼科学関連",
+            "name_en": "Basic Section 56060:Ophthalmology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "322",
+            "code_mext": "56070",
+            "name_ja": "小区分56070:形成外科学関連",
+            "name_en": "Basic Section 56070:Plastic and reconstructive surgery-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "323",
+        "code_mext": "57",
+        "name_ja": "中区分57:口腔科学およびその関連分野",
+        "name_en": "Medium-sized Section 57:Oral science and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "324",
+            "code_mext": "57010",
+            "name_ja": "小区分57010:常態系口腔科学関連",
+            "name_en": "Basic Section 57010:Oral biological science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "325",
+            "code_mext": "57020",
+            "name_ja": "小区分57020:病態系口腔科学関連",
+            "name_en": "Basic Section 57020:Oral pathobiological science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "326",
+            "code_mext": "57030",
+            "name_ja": "小区分57030:保存治療系歯学関連",
+            "name_en": "Basic Section 57030:Conservative dentistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "327",
+            "code_mext": "57040",
+            "name_ja": "小区分57040:口腔再生医学および歯科医用工学関連",
+            "name_en": "Basic Section 57040:Regenerative dentistry and dental engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "328",
+            "code_mext": "57050",
+            "name_ja": "小区分57050:補綴系歯学関連",
+            "name_en": "Basic Section 57050:Prosthodontics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "329",
+            "code_mext": "57060",
+            "name_ja": "小区分57060:外科系歯学関連",
+            "name_en": "Basic Section 57060:Surgical dentistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "330",
+            "code_mext": "57070",
+            "name_ja": "小区分57070:成長および発育系歯学関連",
+            "name_en": "Basic Section 57070:Developmental dentistry-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "331",
+            "code_mext": "57080",
+            "name_ja": "小区分57080:社会系歯学関連",
+            "name_en": "Basic Section 57080:Social dentistry-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "332",
+        "code_mext": "58",
+        "name_ja": "中区分58:社会医学、看護学およびその関連分野",
+        "name_en": "Medium-sized Section 58:Society medicine, nursing, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "333",
+            "code_mext": "58010",
+            "name_ja": "小区分58010:医療管理学および医療系社会学関連",
+            "name_en": "Basic Section 58010:Medical management and medical sociology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "334",
+            "code_mext": "58020",
+            "name_ja": "小区分58020:衛生学および公衆衛生学分野関連:実験系を含む",
+            "name_en": "Basic Section 58020:Hygiene and public health-related: including laboratory approach",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "335",
+            "code_mext": "58030",
+            "name_ja": "小区分58030:衛生学および公衆衛生学分野関連:実験系を含まない",
+            "name_en": "Basic Section 58030:Hygiene and public health-related: excluding laboratory approach",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "336",
+            "code_mext": "58040",
+            "name_ja": "小区分58040:法医学関連",
+            "name_en": "Basic Section 58040:Forensics medicine-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "337",
+            "code_mext": "58050",
+            "name_ja": "小区分58050:基礎看護学関連",
+            "name_en": "Basic Section 58050:Fundamental of nursing-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "338",
+            "code_mext": "58060",
+            "name_ja": "小区分58060:臨床看護学関連",
+            "name_en": "Basic Section 58060:Clinical nursing-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "339",
+            "code_mext": "58070",
+            "name_ja": "小区分58070:生涯発達看護学関連",
+            "name_en": "Basic Section 58070:Lifelong developmental nursing-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "340",
+            "code_mext": "58080",
+            "name_ja": "小区分58080:高齢者看護学および地域看護学関連",
+            "name_en": "Basic Section 58080:Gerontological nursing and community health nursing-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "341",
+        "code_mext": "59",
+        "name_ja": "中区分59:スポーツ科学、体育、健康科学およびその関連分野",
+        "name_en": "Medium-sized Section 59:Sports sciences, physical education, health sciences, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "342",
+            "code_mext": "59010",
+            "name_ja": "小区分59010:リハビリテーション科学関連",
+            "name_en": "Basic Section 59010:Rehabilitation science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "343",
+            "code_mext": "59020",
+            "name_ja": "小区分59020:スポーツ科学関連",
+            "name_en": "Basic Section 59020:Sports sciences-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "344",
+            "code_mext": "59030",
+            "name_ja": "小区分59030:体育および身体教育学関連",
+            "name_en": "Basic Section 59030:Physical education, and physical and health education-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "345",
+            "code_mext": "59040",
+            "name_ja": "小区分59040:栄養学および健康科学関連",
+            "name_en": "Basic Section 59040:Nutrition science and health science-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "177",
+        "code_mext": "90",
+        "name_ja": "中区分90:人間医工学およびその関連分野",
+        "name_en": "Medium-sized Section 90:Biomedical engineering and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "178",
+            "code_mext": "90110",
+            "name_ja": "小区分90110:生体医工学関連",
+            "name_en": "Basic Section 90110:Biomedical engineering-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "179",
+            "code_mext": "90120",
+            "name_ja": "小区分90120:生体材料学関連",
+            "name_en": "Basic Section 90120:Biomaterials-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "180",
+            "code_mext": "90130",
+            "name_ja": "小区分90130:医用システム関連",
+            "name_en": "Basic Section 90130:Medical systems-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "181",
+            "code_mext": "90140",
+            "name_ja": "小区分90140:医療技術評価学関連",
+            "name_en": "Basic Section 90140:Medical technology assessment-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "182",
+            "code_mext": "90150",
+            "name_ja": "小区分90150:医療福祉工学関連",
+            "name_en": "Basic Section 90150:Medical assistive technology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "832",
+            "code_mext": "M90130-90140",
+            "name_ja": "合同審査対象区分:小区分90130:医用システム関連、小区分90140:医療技術評価学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section90130:Medical systems-related , Basic Section90140:Medical technology assessment-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "346",
+    "code_mext": "J",
+    "name_ja": "大区分J",
+    "name_en": "Broad Section J",
+    "sub_sections": [
+      {
+        "code_nii": "347",
+        "code_mext": "60",
+        "name_ja": "中区分60:情報科学、情報工学およびその関連分野",
+        "name_en": "Medium-sized Section 60:Information science, computer engineering, and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "348",
+            "code_mext": "60010",
+            "name_ja": "小区分60010:情報学基礎論関連",
+            "name_en": "Basic Section 60010:Theory of informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "349",
+            "code_mext": "60020",
+            "name_ja": "小区分60020:数理情報学関連",
+            "name_en": "Basic Section 60020:Mathematical informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "350",
+            "code_mext": "60030",
+            "name_ja": "小区分60030:統計科学関連",
+            "name_en": "Basic Section 60030:Statistical science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "351",
+            "code_mext": "60040",
+            "name_ja": "小区分60040:計算機システム関連",
+            "name_en": "Basic Section 60040:Computer system-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "352",
+            "code_mext": "60050",
+            "name_ja": "小区分60050:ソフトウェア関連",
+            "name_en": "Basic Section 60050:Software-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "353",
+            "code_mext": "60060",
+            "name_ja": "小区分60060:情報ネットワーク関連",
+            "name_en": "Basic Section 60060:Information network-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "354",
+            "code_mext": "60070",
+            "name_ja": "小区分60070:情報セキュリティ関連",
+            "name_en": "Basic Section 60070:Information security-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "355",
+            "code_mext": "60080",
+            "name_ja": "小区分60080:データベース関連",
+            "name_en": "Basic Section 60080:Database-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "356",
+            "code_mext": "60090",
+            "name_ja": "小区分60090:高性能計算関連",
+            "name_en": "Basic Section 60090:High performance computing-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "357",
+            "code_mext": "60100",
+            "name_ja": "小区分60100:計算科学関連",
+            "name_en": "Basic Section 60100:Computational science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "827",
+            "code_mext": "M60010-60020",
+            "name_ja": "合同審査対象区分:小区分60010:情報学基礎論関連、小区分60020:数理情報学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section60010:Theory of informatics-related , Basic Section60020:Mathematical informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "828",
+            "code_mext": "M60030-61030",
+            "name_ja": "合同審査対象区分:小区分60030:統計科学関連、小区分61030:知能情報学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section60030:Statistical science-related , Basic Section61030:Intelligent informatics-related ",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "829",
+            "code_mext": "M60040-60090",
+            "name_ja": "合同審査対象区分:小区分60040:計算機システム関連、小区分60090:高性能計算関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section60040:Computer system-related , Basic Section60090:High performance computing-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "830",
+            "code_mext": "M60080-62020",
+            "name_ja": "合同審査対象区分:小区分60080:データベース関連、小区分62020:ウェブ情報学およびサービス情報学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section60080:Database-related , Basic Section62020:Web informatics and service informatics-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "358",
+        "code_mext": "61",
+        "name_ja": "中区分61:人間情報学およびその関連分野",
+        "name_en": "Medium-sized Section 61:Human informatics and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "359",
+            "code_mext": "61010",
+            "name_ja": "小区分61010:知覚情報処理関連",
+            "name_en": "Basic Section 61010:Perceptual information processing-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "360",
+            "code_mext": "61020",
+            "name_ja": "小区分61020:ヒューマンインタフェースおよびインタラクション関連",
+            "name_en": "Basic Section 61020:Human interface and interaction-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "361",
+            "code_mext": "61030",
+            "name_ja": "小区分61030:知能情報学関連",
+            "name_en": "Basic Section 61030:Intelligent informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "362",
+            "code_mext": "61040",
+            "name_ja": "小区分61040:ソフトコンピューティング関連",
+            "name_en": "Basic Section 61040:Soft computing-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "363",
+            "code_mext": "61050",
+            "name_ja": "小区分61050:知能ロボティクス関連",
+            "name_en": "Basic Section 61050:Intelligent robotics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "364",
+            "code_mext": "61060",
+            "name_ja": "小区分61060:感性情報学関連",
+            "name_en": "Basic Section 61060:Kansei informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "11",
+            "code_mext": "90010",
+            "name_ja": "小区分90010:デザイン学関連",
+            "name_en": "Basic Section 90010:Design-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "79",
+            "code_mext": "90030",
+            "name_ja": "小区分90030:認知科学関連",
+            "name_en": "Basic Section 90030:Cognitive science-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "828",
+            "code_mext": "M60030-61030",
+            "name_ja": "合同審査対象区分:小区分60030:統計科学関連、小区分61030:知能情報学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section60030:Statistical science-related , Basic Section61030:Intelligent informatics-related ",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "831",
+            "code_mext": "M61020-62040",
+            "name_ja": "合同審査対象区分:小区分61020:ヒューマンインタフェースおよびインタラクション関連、小区分62040:エンタテインメントおよびゲーム情報学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section61020:Human interface and interaction-related , Basic Section62040:Entertainment and game informatics-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "365",
+        "code_mext": "62",
+        "name_ja": "中区分62:応用情報学およびその関連分野",
+        "name_en": "Medium-sized Section 62:Applied informatics and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "366",
+            "code_mext": "62010",
+            "name_ja": "小区分62010:生命、健康および医療情報学関連",
+            "name_en": "Basic Section 62010:Life, health and medical informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "367",
+            "code_mext": "62020",
+            "name_ja": "小区分62020:ウェブ情報学およびサービス情報学関連",
+            "name_en": "Basic Section 62020:Web informatics and service informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "368",
+            "code_mext": "62030",
+            "name_ja": "小区分62030:学習支援システム関連",
+            "name_en": "Basic Section 62030:Learning support system-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "369",
+            "code_mext": "62040",
+            "name_ja": "小区分62040:エンタテインメントおよびゲーム情報学関連",
+            "name_en": "Basic Section 62040:Entertainment and game informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "23",
+            "code_mext": "90020",
+            "name_ja": "小区分90020:図書館情報学および人文社会情報学関連",
+            "name_en": "Basic Section 90020:Library and information science, humanistic and social informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "830",
+            "code_mext": "M60080-62020",
+            "name_ja": "合同審査対象区分:小区分60080:データベース関連、小区分62020:ウェブ情報学およびサービス情報学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section60080:Database-related , Basic Section62020:Web informatics and service informatics-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "831",
+            "code_mext": "M61020-62040",
+            "name_ja": "合同審査対象区分:小区分61020:ヒューマンインタフェースおよびインタラクション関連、小区分62040:エンタテインメントおよびゲーム情報学関連",
+            "name_en": "Sections That Are Subject to Joint Review: Basic Section61020:Human interface and interaction-related , Basic Section62040:Entertainment and game informatics-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code_nii": "370",
+    "code_mext": "K",
+    "name_ja": "大区分K",
+    "name_en": "Broad Section K",
+    "sub_sections": [
+      {
+        "code_nii": "371",
+        "code_mext": "63",
+        "name_ja": "中区分63:環境解析評価およびその関連分野",
+        "name_en": "Medium-sized Section 63:Environmental analyses and evaluation and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "372",
+            "code_mext": "63010",
+            "name_ja": "小区分63010:環境動態解析関連",
+            "name_en": "Basic Section 63010:Environmental dynamic analysis-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "373",
+            "code_mext": "63020",
+            "name_ja": "小区分63020:放射線影響関連",
+            "name_en": "Basic Section 63020:Radiation influence-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "374",
+            "code_mext": "63030",
+            "name_ja": "小区分63030:化学物質影響関連",
+            "name_en": "Basic Section 63030:Chemical substance influence on environment-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "375",
+            "code_mext": "63040",
+            "name_ja": "小区分63040:環境影響評価関連",
+            "name_en": "Basic Section 63040:Environmental impact assessment-related",
+            "sub_sections": []
+          }
+        ]
+      },
+      {
+        "code_nii": "376",
+        "code_mext": "64",
+        "name_ja": "中区分64:環境保全対策およびその関連分野",
+        "name_en": "Medium-sized Section 64:Environmental conservation measure and related fields",
+        "sub_sections": [
+          {
+            "code_nii": "377",
+            "code_mext": "64010",
+            "name_ja": "小区分64010:環境負荷およびリスク評価管理関連",
+            "name_en": "Basic Section 64010:Environmental load and risk assessment-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "378",
+            "code_mext": "64020",
+            "name_ja": "小区分64020:環境負荷低減技術および保全修復技術関連",
+            "name_en": "Basic Section 64020:Environmental load reduction and remediation-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "379",
+            "code_mext": "64030",
+            "name_ja": "小区分64030:環境材料およびリサイクル技術関連",
+            "name_en": "Basic Section 64030:Environmental materials and recycle technology-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "380",
+            "code_mext": "64040",
+            "name_ja": "小区分64040:自然共生システム関連",
+            "name_en": "Basic Section 64040:Social-ecological systems-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "381",
+            "code_mext": "64050",
+            "name_ja": "小区分64050:循環型社会システム関連",
+            "name_en": "Basic Section 64050:Sound material-cycle social systems-related",
+            "sub_sections": []
+          },
+          {
+            "code_nii": "382",
+            "code_mext": "64060",
+            "name_ja": "小区分64060:環境政策および環境配慮型社会関連",
+            "name_en": "Basic Section 64060:Environmental policy and social systems-related",
+            "sub_sections": []
+          }
+        ]
+      }
+    ]
+  }
+]

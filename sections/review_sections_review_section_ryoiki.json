@@ -1,0 +1,23 @@
+[
+  {
+    "code_nii": "481",
+    "code_mext": "2",
+    "name_ja": "人文・社会系",
+    "name_en": "Humanities and Social Sciences",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "482",
+    "code_mext": "3",
+    "name_ja": "理工系",
+    "name_en": "Science and Engineering",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "483",
+    "code_mext": "4",
+    "name_ja": "生物系",
+    "name_en": "Biological Sciences",
+    "sub_sections": []
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "code_nii": "795",
+    "code_mext": "01",
+    "name_ja": "学術変革領域研究区分(Ⅰ)",
+    "name_en": "Transformative Research Areas, Section (I)",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "796",
+    "code_mext": "02",
+    "name_ja": "学術変革領域研究区分(Ⅱ)",
+    "name_en": "Transformative Research Areas, Section (II)",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "797",
+    "code_mext": "03",
+    "name_ja": "学術変革領域研究区分(Ⅲ)",
+    "name_en": "Transformative Research Areas, Section (III)",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "798",
+    "code_mext": "04",
+    "name_ja": "学術変革領域研究区分(Ⅳ)",
+    "name_en": "Transformative Research Areas, Section (IV)",
+    "sub_sections": []
+  }
+]

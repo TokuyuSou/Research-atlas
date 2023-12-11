@@ -1,0 +1,331 @@
+[
+  {
+    "code_nii": "383",
+    "code_mext": "0101",
+    "name_ja": "0101:思想、芸術およびその関連分野",
+    "name_en": "0101:Philosophy, art, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "384",
+    "code_mext": "0102",
+    "name_ja": "0102:文学、言語学およびその関連分野",
+    "name_en": "0102:Literature, linguistics, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "385",
+    "code_mext": "0103",
+    "name_ja": "0103:歴史学、考古学、博物館学およびその関連分野",
+    "name_en": "0103:History, archaeology, museology, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "386",
+    "code_mext": "0104",
+    "name_ja": "0104:地理学、文化人類学、民俗学およびその関連分野",
+    "name_en": "0104:Geography, cultural anthropology, folklore, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "387",
+    "code_mext": "0105",
+    "name_ja": "0105:法学およびその関連分野",
+    "name_en": "0105:Law and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "388",
+    "code_mext": "0106",
+    "name_ja": "0106:政治学およびその関連分野",
+    "name_en": "0106:Political science and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "389",
+    "code_mext": "0107",
+    "name_ja": "0107:経済学、経営学およびその関連分野",
+    "name_en": "0107:Economics, business administration, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "390",
+    "code_mext": "0108",
+    "name_ja": "0108:社会学およびその関連分野",
+    "name_en": "0108:Sociology and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "391",
+    "code_mext": "0109",
+    "name_ja": "0109:教育学およびその関連分野",
+    "name_en": ":Education and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "392",
+    "code_mext": "0110",
+    "name_ja": "0110:心理学およびその関連分野",
+    "name_en": "0110:Psychology and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "393",
+    "code_mext": "0201",
+    "name_ja": "0201:代数学、幾何学、解析学、応用数学およびその関連分野",
+    "name_en": "0201:Algebra, geometry, analysis, applied mathematics,and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "394",
+    "code_mext": "0202",
+    "name_ja": "0202:物性物理学、プラズマ学、原子力工学、地球資源工学、エネルギー学およびその関連分野",
+    "name_en": "0202:Condensed matter physics, plasma science, nuclear engineering, earth resources engineering, energy engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "395",
+    "code_mext": "0203",
+    "name_ja": "0203:素粒子、原子核、宇宙物理学およびその関連分野",
+    "name_en": "0203:Particle-, nuclear-, astro-physics, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "396",
+    "code_mext": "0204",
+    "name_ja": "0204:天文学、地球惑星科学およびその関連分野",
+    "name_en": "0204:Astronomy, earth and planetary science, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "397",
+    "code_mext": "0301",
+    "name_ja": "0301:材料力学、生産工学、設計工学、流体工学、熱工学、機械力学、ロボティクス、航空宇宙工学、船舶海洋工学およびその関連分野",
+    "name_en": "0301:Mechanics of materials, production engineering, design engineering, fluid engineering, thermal engineering, mechanical dynamics, robotics, aerospace engineering, marine and maritime engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "398",
+    "code_mext": "0302",
+    "name_ja": "0302:電気電子工学およびその関連分野",
+    "name_en": "0302:Electrical and electronic engineering and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "399",
+    "code_mext": "0303",
+    "name_ja": "0303:土木工学、社会システム工学、安全工学、防災工学およびその関連分野",
+    "name_en": "0303:Civil engineering, social systems engineering, safety engineering, disaster prevention engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "400",
+    "code_mext": "0304",
+    "name_ja": "0304:建築学およびその関連分野",
+    "name_en": "0304:Architecture, building engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "401",
+    "code_mext": "0401",
+    "name_ja": "0401:材料工学、化学工学およびその関連分野",
+    "name_en": "0401:Materials engineering, chemical engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "402",
+    "code_mext": "0402",
+    "name_ja": "0402:ナノマイクロ科学、応用物理物性、応用物理工学およびその関連分野",
+    "name_en": "0402:Nano/micro science, applied condensed matter physics, applied physics and engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "403",
+    "code_mext": "0403",
+    "name_ja": "0403:人間医工学およびその関連分野",
+    "name_en": "0403:Biomedical engineering and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "404",
+    "code_mext": "0501",
+    "name_ja": "0501:物理化学、機能物性化学、有機化学、高分子、有機材料、生体分子化学およびその関連分野",
+    "name_en": "0501:Physical chemistry, functional solid state chemistry, organic chemistry, polymers, organic materials, biomolecular chemistry, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "405",
+    "code_mext": "0502",
+    "name_ja": "0502:無機・錯体化学、分析化学、無機材料化学、エネルギー関連化学およびその関連分野",
+    "name_en": "0502:Inorganic/coordination chemistry, analytical chemistry, inorganic materials chemistry, energy-related chemistry, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "406",
+    "code_mext": "0601",
+    "name_ja": "0601:農芸化学およびその関連分野",
+    "name_en": "0601:Agricultural chemistry and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "407",
+    "code_mext": "0602",
+    "name_ja": "0602:生産環境農学およびその関連分野",
+    "name_en": "0602:Agricultural and environmental biology and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "408",
+    "code_mext": "0603",
+    "name_ja": "0603:森林圏科学、水圏応用科学およびその関連分野",
+    "name_en": "0603:Forestry and forest products science, applied aquatic science, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "409",
+    "code_mext": "0604",
+    "name_ja": "0604:社会経済農学、農業工学およびその関連分野",
+    "name_en": "0604:Agricultural economics and rural sociology, agricultural engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "410",
+    "code_mext": "0605",
+    "name_ja": "0605:獣医学、畜産学およびその関連分野",
+    "name_en": "0605:Veterinary medical science, animal science, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "411",
+    "code_mext": "0701",
+    "name_ja": "0701:分子レベルから細胞レベルの生物学およびその関連分野",
+    "name_en": "0701:Biology at molecular to cellular levels, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "412",
+    "code_mext": "0702",
+    "name_ja": "0702:細胞レベルから個体レベルの生物学およびその関連分野",
+    "name_en": "0702:Biology at cellular to organismal levels, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "413",
+    "code_mext": "0703",
+    "name_ja": "0703:個体レベルから集団レベルの生物学と人類学およびその関連分野",
+    "name_en": "0703:Biology at organismal to population levels and anthropology, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "414",
+    "code_mext": "0704",
+    "name_ja": "0704:神経科学、ブレインサイエンスおよびその関連分野",
+    "name_en": "0704:Neuroscience, brain sciences, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "415",
+    "code_mext": "0801",
+    "name_ja": "0801:薬学およびその関連分野",
+    "name_en": "0801:Pharmaceutical sciences and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "416",
+    "code_mext": "0802",
+    "name_ja": "0802:生体の構造と機能およびその関連分野",
+    "name_en": "0802:Biomedical structure and function and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "417",
+    "code_mext": "0803",
+    "name_ja": "0803:病理病態学、感染・免疫学およびその関連分野",
+    "name_en": "0803:Pathology, infection/immunology, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "418",
+    "code_mext": "0901",
+    "name_ja": "0901:腫瘍学およびその関連分野",
+    "name_en": "0901:Oncology and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "419",
+    "code_mext": "0902",
+    "name_ja": "0902:内科学一般およびその関連分野",
+    "name_en": "0902:General internal medicine and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "420",
+    "code_mext": "0903",
+    "name_ja": "0903:器官システム内科学およびその関連分野",
+    "name_en": "0903:Organ-based internal medicine and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "421",
+    "code_mext": "0904",
+    "name_ja": "0904:生体情報内科学およびその関連分野",
+    "name_en": "0904:Internal medicine of the bio-information integration and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "422",
+    "code_mext": "0905",
+    "name_ja": "0905:恒常性維持器官の外科学およびその関連分野",
+    "name_en": "0905:Surgery of the organs maintaining homeostasis and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "423",
+    "code_mext": "0906",
+    "name_ja": "0906:生体機能および感覚に関する外科学およびその関連分野",
+    "name_en": "0906:Surgery related to the biological and sensory functions and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "424",
+    "code_mext": "0907",
+    "name_ja": "0907:口腔科学およびその関連分野",
+    "name_en": "0907:Oral science and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "425",
+    "code_mext": "0908",
+    "name_ja": "0908:社会医学、看護学およびその関連分野",
+    "name_en": "0908:Society medicine, nursing, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "426",
+    "code_mext": "0909",
+    "name_ja": "0909:スポーツ科学、体育、健康科学およびその関連分野",
+    "name_en": "0909:Sports sciences, physical education, health sciences, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "427",
+    "code_mext": "1001",
+    "name_ja": "1001:情報科学、情報工学およびその関連分野",
+    "name_en": "1001:Information science, computer engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "428",
+    "code_mext": "1002",
+    "name_ja": "1002:人間情報学、応用情報学およびその関連分野",
+    "name_en": "1002:Human informatics, applied informatics and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "429",
+    "code_mext": "1101",
+    "name_ja": "1101:環境解析評価、環境保全対策およびその関連分野",
+    "name_en": "1101:Environmental analyses and evaluation, environmental conservation measure and related fields",
+    "sub_sections": []
+  }
+]

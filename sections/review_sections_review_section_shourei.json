@@ -1,0 +1,261 @@
+[
+  {
+    "code_nii": "430",
+    "code_mext": "1110",
+    "name_ja": "1110:思想、芸術およびその関連分野",
+    "name_en": "1110:Philosophy, art, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "431",
+    "code_mext": "1120",
+    "name_ja": "1120:文学、言語学およびその関連分野",
+    "name_en": "1120:Literature, linguistics, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "432",
+    "code_mext": "1130",
+    "name_ja": "1130:歴史学、考古学、博物館学およびその関連分野",
+    "name_en": "1130:History, archaeology, museology, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "433",
+    "code_mext": "1140",
+    "name_ja": "1140:地理学、文化人類学、民俗学およびその関連分野",
+    "name_en": "1140:Geography, cultural anthropology, folklore, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "434",
+    "code_mext": "1150",
+    "name_ja": "1150:法学、政治学、経済学、経営学およびその関連分野",
+    "name_en": "1150:Law, political science, economics, business administration, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "435",
+    "code_mext": "1160",
+    "name_ja": "1160:社会学、心理学およびその関連分野",
+    "name_en": "1160:Sociology, psychology and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "436",
+    "code_mext": "1170",
+    "name_ja": "1170:教育学・教育社会学関連",
+    "name_en": "1170:Education, sociology of education-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "437",
+    "code_mext": "1180",
+    "name_ja": "1180:教科教育学および初等中等教育学関連",
+    "name_en": "1180:Education on school subjects, primary/secondary education-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "438",
+    "code_mext": "1190",
+    "name_ja": "1190:特別支援教育関連",
+    "name_en": "1190:Special needs education-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "439",
+    "code_mext": "1200",
+    "name_ja": "1200:教育工学関連",
+    "name_en": "1200:Educational technology-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "440",
+    "code_mext": "1210",
+    "name_ja": "1210:科学教育関連",
+    "name_en": "1210:Science education-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "441",
+    "code_mext": "2110",
+    "name_ja": "2110:代数学、幾何学、解析学、応用数学およびその関連分野",
+    "name_en": "2110:Algebra, geometry, analysis, applied mathematics, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "442",
+    "code_mext": "2120",
+    "name_ja": "2120:物性物理学、プラズマ学、素粒子、原子核、宇宙物理学およびその関連分野",
+    "name_en": "2120:Condensed matter physics, plasma science, particle-, nuclear-, astro-physics, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "443",
+    "code_mext": "2130",
+    "name_ja": "2130:天文学、地球惑星科学およびその関連分野",
+    "name_en": "2130:Astronomy, earth and planetary science and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "444",
+    "code_mext": "2140",
+    "name_ja": "2140:材料力学、生産工学、設計工学、流体工学、熱工学、機械力学、ロボティクスおよびその関連分野",
+    "name_en": "2140:Mechanics of materials, production engineering, design engineering, fluid engineering, thermal engineering, mechanical dynamics, robotics, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "445",
+    "code_mext": "2150",
+    "name_ja": "2150:電気電子工学およびその関連分野",
+    "name_en": "2150:Electrical and electronic engineering and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "446",
+    "code_mext": "2160",
+    "name_ja": "2160:土木工学、建築学、航空宇宙工学、船舶海洋工学、社会システム工学、安全工学、防災工学およびその関連分野",
+    "name_en": "2160:Civil engineering, architecture, building engineering, aerospace engineering, marine and maritime engineering, social systems engineering, safety engineering, disaster prevention engineering, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "447",
+    "code_mext": "2170",
+    "name_ja": "2170:材料工学、化学工学およびその関連分野",
+    "name_en": "2170:Materials engineering, chemical engineering and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "448",
+    "code_mext": "2180",
+    "name_ja": "2180:ナノマイクロ科学、応用物理物性、応用物理工学、原子力工学、地球資源工学、エネルギー学、人間医工学およびその関連分野",
+    "name_en": "2180:Nano/micro science, applied condensed matter physics, applied physics and engineering, nuclear engineering, earth resources engineering, energy engineering, biomedical engineeringand related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "449",
+    "code_mext": "2190",
+    "name_ja": "2190:物理化学、機能物性化学、有機化学、無機・錯体化学、分析化学、高分子、有機材料、無機材料化学、エネルギー関連化学、生体分子化学およびその関連分野",
+    "name_en": "2190:Physical chemistry, functional solid state chemistry, organic chemistry, inorganic/coordination chemistry, analytical chemistry, polymers, organic materials, inorganic materials chemistry, energy-related chemistry, biomolecular chemistry and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "450",
+    "code_mext": "3110",
+    "name_ja": "3110:農芸化学、生産環境農学、森林圏科学、水圏応用科学、社会経済農学、農業工学、獣医学、畜産学およびその関連分野",
+    "name_en": "3110:Agricultural chemistry, agricultural and environmental biology, forestry and forest products science, applied aquatic science, agricultural economics and rural sociology, agricultural engineering, veterinary medical science, animal science, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "451",
+    "code_mext": "3120",
+    "name_ja": "3120:分子レベルから細胞レベルの生物学、細胞レベルから個体レベルの生物学、個体レベルから集団レベルの生物学と人類学、神経科学およびその関連分野",
+    "name_en": "3120:Biology at molecular to cellular levels, biology at cellular to organismal levels, biology at organismal to population levels and anthropology, neuroscience and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "452",
+    "code_mext": "3130",
+    "name_ja": "3130:薬系化学および創薬科学関連",
+    "name_en": "3130:Pharmaceutical chemistry and drug development sciences-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "453",
+    "code_mext": "3140",
+    "name_ja": "3140:薬系分析および物理化学関連",
+    "name_en": "3140:Pharmaceutical analytical chemistry and physicochemistry-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "454",
+    "code_mext": "3150",
+    "name_ja": "3150:薬系衛生および生物化学関連",
+    "name_en": "3150:Pharmaceutical hygiene and biochemistry-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "455",
+    "code_mext": "3160",
+    "name_ja": "3160:薬理学関連",
+    "name_en": "3160:Pharmacology-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "456",
+    "code_mext": "3170",
+    "name_ja": "3170:環境および天然医薬資源学関連",
+    "name_en": "3170:Environmental and natural pharmaceutical resources-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "457",
+    "code_mext": "3180",
+    "name_ja": "3180:医療薬学関連",
+    "name_en": "3180:Clinical pharmacy-related",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "458",
+    "code_mext": "3190",
+    "name_ja": "3190:生体の構造と機能、病理病態学、感染・免疫学およびその関連分野",
+    "name_en": "3190:Biomedical structure and function, pathology, infection/immunology, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "459",
+    "code_mext": "3200",
+    "name_ja": "3200:腫瘍学、ブレインサイエンスおよびその関連分野",
+    "name_en": "3200:Oncology, Brain sciences and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "460",
+    "code_mext": "3210",
+    "name_ja": "3210:内科学一般、器官システム内科学、生体情報内科学およびその関連分野",
+    "name_en": "3210:General internal medicine, organ-based internal medicine, internal medicine of the bio-information integration, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "461",
+    "code_mext": "3220",
+    "name_ja": "3220:恒常性維持器官の外科学、生体機能および感覚に関する外科学およびその関連分野",
+    "name_en": "3220:Surgery of the organs maintaining homeostasis, surgery related to the biological and sensory functions and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "462",
+    "code_mext": "3230",
+    "name_ja": "3230:口腔科学およびその関連分野",
+    "name_en": "3230:Oral science and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "463",
+    "code_mext": "3240",
+    "name_ja": "3240:社会医学、看護学およびその関連分野",
+    "name_en": "3240:Society medicine, nursing, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "464",
+    "code_mext": "3250",
+    "name_ja": "3250:スポーツ科学、体育、健康科学およびその関連分野",
+    "name_en": "3250:Sports sciences, physical education, health sciences, and related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "465",
+    "code_mext": "4110",
+    "name_ja": "4110:情報科学、情報工学、人間情報学、応用情報学およびその関連分野",
+    "name_en": "4110:Information science, computer engineering, human informaticsand, applied informatics related fields",
+    "sub_sections": []
+  },
+  {
+    "code_nii": "466",
+    "code_mext": "4120",
+    "name_ja": "4120:環境解析評価、環境保全対策およびその関連分野",
+    "name_en": "4120:Environmental analyses and evaluation, environmental conservation measure and related fields and related fields",
+    "sub_sections": []
+  }
+]

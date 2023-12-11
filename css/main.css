@@ -1,0 +1,262 @@
+/* 現在のCSSスタイルを保持 */
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#graph-container {
+    flex-grow: 1;
+    margin-right: auto;
+}
+
+#ranking-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ranking {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ranking h3 {
+    margin-top: 0;
+}
+
+#footer-note {
+    text-align: center;
+    padding: 1px;
+    background-color: #f0f0f0;
+    font-size: 10px;
+}
+
+/* 新しいスタイリッシュなスタイルを追加 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#control h1 {
+    font-size: 24px;
+    color: #333;
+    margin-right: 20px;
+}
+
+.button-group button {
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+    background-color: #45a049;
+}
+
+
+#slider-container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#header {
+    background-color: #4CAF50;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+#header h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#control {
+    display: flex;
+    flex-wrap: nowrap;
+    /* ボタンが一行に並ぶように設定 */
+    align-items: center;
+    justify-content: space-between;
+    /* コンテナ内の要素を均等に配置 */
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+#level-display {
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    /* width: 15%; */
+    flex: 1;
+}
+
+#level-display h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.button-group {
+    flex: 1;
+    display: flex;
+    /* ボタンを水平方向に並べる */
+    justify-content: flex-end;
+    /* ボタンを右詰めにする */
+    /* width: 50%; */
+    /* 幅を全体に設定 */
+}
+
+.button-group button {
+    margin: 5px;
+}
+
+.slider-info {
+    /* width: 100%; */
+    flex: 2;
+    text-align: center;
+}
+
+#slider-range {
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* その他のスタイルは同じままです。 */
+
+
+
+#control button {
+    margin-right: 10px;
+    /* 各ボタン間の右の隙間 */
+}
+
+#control button:last-child {
+    margin-right: 0;
+    /* 最後のボタンの右の隙間をなくす */
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#ranking-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.ranking h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#institution-selection {
+    margin-bottom: 20px;
+}
+
+#institution-selection label {
+    margin-right: 10px;
+}
+
+/* 既存のスタイルはそのまま維持 */
+
+/* 新しいコンテナスタイルの追加 */
+#wrapper {
+    padding: 0 2rem;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#word-cloud-container {
+    width: 520px;
+    height: 580px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#word-cloud-container h3 {
+    margin-top: 10px;
+    /* 上側に10pxの余白を開ける */
+    text-align: center;
+    /* テキストを中央揃えにする */
+    background-color: #f0f0f0;
+    /* 背景色を変更（例: 薄いグレー） */
+    padding: 5px;
+    /* テキストの周りにパディングを設定 */
+    border-radius: 5px;
+    /* 角を丸くする */
+}
+
+#ranking-container {
+    width: 500px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+/* タイトルのフォントサイズを異なるサイズにする場合 */
+.ranking h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 14px;
+    /* タイトルのフォントサイズを14pxに設定 */
+}
+
+.interaction-instruction {
+    font-weight: bold;
+    color: #007bff;
+    /* あるいは好みの色 */
+    margin-top: 10px;
+    display: block;
+}
