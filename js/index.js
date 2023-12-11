@@ -990,8 +990,6 @@ const main = async () => {
     } finally {
       document.getElementById('loadingIndicator').style.display = 'none';
     }
-    allData = await fetchAllResearchData(50);
-    console.log('Fetched data:', allData);
     // 取得したデータをIndexedDBに保存
     await saveToIndexedDB('researchData', allData);
   }
