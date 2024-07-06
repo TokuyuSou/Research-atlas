@@ -1,6 +1,13 @@
 # Research Atlas
 **The deployed page is not available due to the expiration of Google Cloud instance. Please view the explanatory video instead.**
 
+## Video
+
+
+https://github.com/TokuyuSou/Research-atlas/assets/115636495/e89009aa-117e-4487-b80a-2effdebd884a
+
+
+
 ## Overview
 
 Research Atlas is a visualization system developed by Team AtlasIntellect, designed to showcase the 
